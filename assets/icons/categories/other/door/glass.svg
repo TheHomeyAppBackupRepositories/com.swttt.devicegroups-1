@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="889px" viewBox="0 0 512 889" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>alarm_contact-door</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="alarm_contact-door" transform="translate(6.000000, 6.000000)">
+            <path d="M0,0 L500,0 L500,876.470588 L1.31891322,876.470588 C0.590497559,876.470588 0,875.876212 0,875.143006 L0,0 Z" id="Path" stroke="#000000" stroke-width="12"></path>
+            <path d="M464.411765,35 L464.411765,876.176471 L36.3389828,876.176471 C35.599483,876.176471 35,875.583576 35,874.8522 L36.3389828,35 L464.411765,35 Z" id="Shape" stroke="#000000" stroke-width="8"></path>
+            <circle id="Oval" stroke="#979797" stroke-width="4" fill="#000000" cx="63.5" cy="458.5" r="17.5"></circle>
+            <rect id="Rectangle" stroke="#555555" x="93.5" y="85.5" width="149" height="174"></rect>
+            <rect id="Rectangle" stroke="#555555" x="92.5" y="275.5" width="149" height="174"></rect>
+            <rect id="Rectangle" stroke="#555555" x="258.5" y="85.5" width="149" height="174"></rect>
+            <rect id="Rectangle" stroke="#555555" x="257.5" y="275.5" width="149" height="174"></rect>
+            <rect id="Rectangle" stroke="#555555" x="92.5" y="465.5" width="149" height="174"></rect>
+            <rect id="Rectangle" stroke="#555555" x="92.5" y="655.5" width="149" height="174"></rect>
+            <rect id="Rectangle" stroke="#555555" x="257.5" y="465.5" width="149" height="174"></rect>
+            <rect id="Rectangle" stroke="#555555" x="257.5" y="655.5" width="149" height="174"></rect>
+        </g>
+    </g>
+</svg>

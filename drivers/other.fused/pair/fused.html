@@ -1,0 +1,73 @@
+
+
+<script>
+    Homey.showLoadingOverlay();
+    Homey.setTitle( Homey.__("pair.fused.title") );
+
+    Vue.filter('capitalize', function (value) {
+        if (!value) return ''
+        value = value.toString()
+        return value.charAt(0).toUpperCase() + value.slice(1)
+    })
+
+    Homey.emit('capabilities.initialised', {}).then( (result) => {
+        new Vue({
+            el: '#app',
+            data: {
+                capabilities: result,
+                selectedCapabilities: [],
+                selectedDevices: {}
+            },
+            filters: {
+                capital: function (value) {
+                    return value.charAt(0).toUpperCase() + value.slice(1);
+                }
+            },
+            methods: {
+                save: function(device, capability) {
+                    // allow devices with a null id to reset.
+                    Homey.emit('capabilities.changed',  {'deviceId' : device.id, 'capabilityId' : capability.id}).then( (result) => {}).catch((e) => {
+                        Homey.alert(e, 'error');
+                        Homey.done();
+                    });
+                }
+            },
+            computed: {},
+            mounted() {
+                // this.$nextTick(function () {
+                    Homey.hideLoadingOverlay();
+                // });
+            },
+            watch: {}
+        });
+    });
+</script>
+
+<div id="app">
+    <template v-cloak>
+        <div class="" v-for="capability in capabilities">
+            {{ __('capability.' + capability.id + '.title') }}
+            <ul id="devices-list">
+                <li class="device">
+                    <label class="name">
+                        <div class="overlay"></div>
+                        <span class="name" tabindex="-1">{{ __('pair.fused.ignore') }}</span>
+                    </label>
+                    <label class="checkbox">
+                        <input :value="0" :name="capability.id" type="radio" tabindex="2" v-on:change="save({id: 0}, capability)">
+                    </label>
+                </li>
+                <li class="device" v-for="device in capability.devices">
+                    <label :for="device.name" class="name">
+                        <div class="overlay"></div>
+                        <span class="name" tabindex="-1">{{ device.name }}</span>
+                    </label>
+                    <label :for="device.name" class="checkbox">
+                        <input :value="device.id" :name="capability.id" type="radio" tabindex="2" v-on:change="save(device, capability)">
+                    </label>
+                </li>
+            </ul>
+        </div>
+        <hr>
+    </template>
+</div>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="406px" height="516px" viewBox="0 0 406 516" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>alarm_contact-window</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="alarm_contact-window" transform="translate(6.000000, 6.000000)" stroke="#000000" stroke-width="12">
+            <path d="M393.673077,12.4230769 L393.673077,503.576923 L1.65384615,503.576923 C1.12280317,503.576923 0.692307692,503.146428 0.692307692,502.615385 L0.692307692,12.4230769 C0.692307692,-5.47307314 393.673077,-1.43714613 393.673077,12.4230769 Z" id="Path"></path>
+            <path d="M29.25,281.75 L182.615385,281.75 L182.615385,474.634615 L29.25,474.634615 L29.25,281.75 Z M211.365385,281.75 L365.403846,281.75 L365.403846,474.634615 L211.365385,474.634615 L211.365385,281.75 Z M182.615385,42.4230769 L182.615385,253.480769 L29.25,253.480769 L29.25,42.4230769 L182.615385,42.4230769 Z M365.307692,253.480769 L211.461538,253.480769 L211.461538,42.4230769 L365.307692,42.4230769 L365.307692,253.480769 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

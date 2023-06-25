@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2200px" height="2200px" viewBox="0 0 2200 2200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Slice</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon" transform="translate(519.000000, 356.000000)" stroke="#000000" stroke-width="50">
+            <rect id="Rectangle" x="25" y="25" width="591" height="1439" rx="150"></rect>
+            <rect id="Rectangle" x="806" y="349" width="330" height="835" rx="100"></rect>
+        </g>
+    </g>
+</svg>

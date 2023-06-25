@@ -1,0 +1,52 @@
+16806163879 [debug] [device:📎 Sensor Group] [setGroupCapabilityValue]  {
+ {
+  key: 'alarm_contact',
+  value: [ false ],
+  method: undefined,
+  type: null
+} {
+  labelVersion: '3.2.0',
+  labelClass: 'sensor',
+  debounceGroup: 0,
+  debounceDevices: 0,
+  wait: 0,
+  tries: 1,
+  logLevel: 'debug',
+  labelCapabilities: 'Contact Alarm, Battery Alarm, Battery',
+  labelDevices: 'NewOne',
+  notes: '',
+  zone_activity_disabled: false
+}
+}
+16806163879 [debug] [device:📎 Sensor Group] [setGroupCapabilityValue]  {
+ If statement failed { length: 1, method: undefined }
+}
+
+
+-----------------------
+
+
+16806164941 [debug] [device:📎 Sensor Group] [setGroupCapabilityValue]  {
+ alarm_contact [ false ]
+}
+16806164941 [debug] [device:📎 Sensor Group] [setGroupCapabilityValue]  {
+ { key: 'alarm_contact', value: [ false ], method: 'any', type: null } {
+  labelVersion: '3.2.0',
+  labelClass: 'sensor',
+  debounceGroup: 0,
+  debounceDevices: 0,
+  wait: 0,
+  tries: 1,
+  logLevel: 'debug',
+  labelCapabilities: 'Contact Alarm, Battery Alarm, Battery',
+  labelDevices: 'Playground Door and Window Sensor',
+  alarm_contact: 'any',
+  alarm_battery: 'any',
+  measure_battery: 'mean',
+  notes: '',
+  zone_activity_disabled: false
+}
+}
+16806164941 [debug] [device:📎 Sensor Group] [setGroupCapabilityValue]  {
+ With in the value false
+}

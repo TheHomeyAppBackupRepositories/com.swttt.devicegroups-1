@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="406px" height="504px" viewBox="0 0 406 504" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>alarm_contact-window</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="alarm_contact-window" transform="translate(6.000000, 6.000000)">
+            <path d="M393.673077,0.423076923 L393.673077,491.576923 L1.65384615,491.576923 C1.12280317,491.576923 0.692307692,491.146428 0.692307692,490.615385 L0.692307692,0.423076923 L393.673077,0.423076923 Z" id="Path" stroke="#000000" stroke-width="12"></path>
+            <polygon id="Polygon" stroke="#979797" fill="#464646" points="197 220 217.923243 228.982779 209.931276 243.517221 184.068724 243.517221 176.076757 228.982779"></polygon>
+            <path d="M29,270 L365,270 L365,462.884615 L29,462.884615 L29,270 Z M365.25,30.4230769 L365.25,241.480769 L29.25,241.480769 L29.25,30.4230769 L365.25,30.4230769 Z" id="Shape" stroke="#000000" stroke-width="12"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,601 @@
+{
+  "_": {
+    "Device Groups Editor": "Device Groups Editor",
+    "Edit your device groups": "Edit your device groups",
+    "Device Group Name": "Device Group Name",
+    "Device Class": "Device Class",
+    "Capabilities": "Capabilities",
+    "Devices in group": "Devices in group",
+    "Select device group": "Select device group",
+    "Group": "Group",
+    "Devices": "Devices",
+    "about": "about",
+    "group": "group",
+    "groups": "groups",
+    "group name": "group name",
+    "capability": "capability",
+    "capabilities": "capabilities",
+    "category": "category",
+    "categories": "categories",
+    "device": "device",
+    "devices": "devices",
+    "icon": "icon",
+    "icons": "icons",
+    "other": "other",
+    "unavailable": "not available",
+    "offline": "offline",
+    "sorry": "Sorry je hebt nog geen groepen gecreëerd, maak eerst een groep aan en kom daarna terug om deze aan te passen."
+  },
+  "capability": {
+    "onoff": {
+      "title": "Turned on",
+      "description": "Whether a device is on or off."
+    },
+    "dim": {
+      "title": "Dim level",
+      "description": "Dims level of a device as a percentage of its full value"
+    },
+    "light_hue": {
+      "title": "Hue",
+      "description": "The colour of the light"
+    },
+    "light_saturation": {
+      "title": "Color Saturation",
+      "description": "The colour intensity"
+    },
+    "light_temperature": {
+      "title": "Color Temperature",
+      "description": "The white light temperature warm to cold as a decimal"
+    },
+    "light_mode": {
+      "title": "Light mode",
+      "description": "Switch between Color or Temperature mode"
+    },
+    "vacuumcleaner_state": {
+      "title": "Vacuum cleaner state",
+      "description": "The state of a a vacuum cleaner, either it is cleaning, spot cleaning, docked, charging or stopped"
+    },
+    "thermostat_mode": {
+      "title": "Thermostat mode",
+      "description": "Mode of the thermostat, either it is set to auto, heat, cool or off."
+    },
+    "target_temperature": {
+      "title": "Target temperature",
+      "description": "Set the temperature which a device should target"
+    },
+    "measure_temperature": {
+      "title": "Temperature",
+      "description": "Temperature in celsius (°c)"
+    },
+    "measure_co": {
+      "title": "Carbon monoxide",
+      "description": "CO in Parts-per-million (ppm)"
+    },
+    "measure_co2": {
+      "title": "Carbon dioxide",
+      "description": "CO₂ in Parts-per-million (ppm)"
+    },
+    "measure_pm25": {
+      "title": "PM2.5",
+      "description": "Atmospheric Particulate Matter (μg/m3)"
+    },
+    "measure_humidity": {
+      "title": "Humidity",
+      "description": "Humidity in percentage (%)"
+    },
+    "measure_pressure": {
+      "title": "Pressure",
+      "description": "Pressure in millibar (mbar)"
+    },
+    "measure_noise": {
+      "title": "Noise",
+      "description": "Noise in Decibel (db)"
+    },
+    "measure_rain": {
+      "title": "Rain",
+      "description": "Rain in millimeter (mm)"
+    },
+    "measure_wind_strength": {
+      "title": "Wind Strength",
+      "description": "Wind Strength in Kilometer per hour (km/h)"
+    },
+    "measure_wind_angle": {
+      "title": "Wind Angle",
+      "description": "Wind Angle in Degrees (°)"
+    },
+    "measure_gust_strength": {
+      "title": "Gust Strength",
+      "description": "Gust Strength n Kilometer per hour (km/h)"
+    },
+    "measure_gust_angle": {
+      "title": "Gust Angle",
+      "description": "Gust Angle in Degrees (°)"
+    },
+    "measure_battery": {
+      "title": "Battery",
+      "description": "Battery charge in percentage (%)"
+    },
+    "measure_power": {
+      "title": "Power",
+      "description": "Power in Watt (W)"
+    },
+    "measure_voltage": {
+      "title": "Voltage",
+      "description": "Electric voltage in Volts (V)"
+    },
+    "measure_current": {
+      "title": "Current",
+      "description": "Electric current in Amps (A)"
+    },
+    "measure_luminance": {
+      "title": "Luminance",
+      "description": "Luminance in Lux (lx)"
+    },
+    "measure_ultraviolet": {
+      "title": "Ultraviolet",
+      "description": "Ultraviolet in UV index (UVI)"
+    },
+    "measure_water": {
+      "title": "Water",
+      "description": "Water flow in Liters per minute (L/min)"
+    },
+    "alarm_generic": {
+      "title": "Generic Alarm",
+      "description": "Generic Alarm"
+    },
+    "alarm_motion": {
+      "title": "Motion Alarm",
+      "description": "Alarms when motion is detected"
+    },
+    "alarm_contact": {
+      "title": "Contact Alarm",
+      "description": "Alarms when a Contact sensor is severed, e.g. when window or door is opened"
+    },
+    "alarm_co": {
+      "title": "CO Alarm",
+      "description": "Alarms when dangerous CO values have been detected"
+    },
+    "alarm_co2": {
+      "title": "CO₂ Alarm",
+      "description": "Alarms when dangerous CO₂ values have been detected"
+    },
+    "alarm_pm25": {
+      "title": "PM2.5 Alarm",
+      "description": "Alarms when PM2.5 values exceeds threshold"
+    },
+    "alarm_tamper": {
+      "title": "Tamper Alarm",
+      "description": "Alarms when tampering has been detected"
+    },
+    "alarm_smoke": {
+      "title": "Smoke Alarm",
+      "description": "Alarms when smoke has been detected"
+    },
+    "alarm_fire": {
+      "title": "Fire Alarm",
+      "description": "Alarms when fire has been detected"
+    },
+    "alarm_heat": {
+      "title": "Heat Alarm",
+      "description": "Alarms when extreme heat has been detected"
+    },
+    "alarm_water": {
+      "title": "Water Alarm",
+      "description": "Alarms when water has been detected"
+    },
+    "alarm_battery": {
+      "title": "Battery Alarm",
+      "description": "Alarms when there is a battery warning, generally low battery"
+    },
+    "alarm_night": {
+      "title": "Night Alarm",
+      "description": "Alarms when it is night time"
+    },
+    "meter_power": {
+      "title": "Power Meter",
+      "description": "Power usage in kilowatt hour (kWh)"
+    },
+    "meter_water": {
+      "title": "Water Meter",
+      "description": "Water usage in Cubic Meter (m³)"
+    },
+    "meter_gas": {
+      "title": "Gas Meter",
+      "description": "Gas usage in Cubic Meter (m³)"
+    },
+    "meter_rain": {
+      "title": "Rain Meter",
+      "description": "Rain in Cubic Meter (m³)"
+    },
+    "homealarm_state": {
+      "title": "Home Alarm state",
+      "description": "Switch between armed, disarmed and partially armed"
+    },
+    "volume_set": {
+      "title": "Set Volume",
+      "description": "Set volume to"
+    },
+    "volume_up": {
+      "title": "Volume up",
+      "description": "Turn the volume up"
+    },
+    "volume_down": {
+      "title": "Volume down",
+      "description": "Turn the volume down"
+    },
+    "volume_mute": {
+      "title": "Volume muted",
+      "description": "Mute the volume"
+    },
+    "channel_up": {
+      "title": "Channel up",
+      "description": "Change the channel up one"
+    },
+    "channel_down": {
+      "title": "Channel down",
+      "description": "Change the channel down one"
+    },
+    "locked": {
+      "title": "Locked",
+      "description": "True when the lock is locked"
+    },
+    "lock_mode": {
+      "title": "Lock mode",
+      "description": "Switch between Always locked, always unlocked and locked until unlocked modes"
+    },
+    "windowcoverings_state": {
+      "title": "Window Coverings State",
+      "description": "Whether a window cover is up, down or idle"
+    },
+    "windowcoverings_tilt_up": {
+      "title": "Window Coverings Tilt Up",
+      "description": "Tilt Window Coverings Up"
+    },
+    "windowcoverings_tilt_down": {
+      "title": "Window Coverings Tilt Down",
+      "description": "Tilt Window Coverings Down"
+    },
+    "windowcoverings_tilt_set": {
+      "title": "Window Coverings Tilt Set",
+      "description": "Set the tilt value of the window covering"
+    },
+    "windowcoverings_closed": {
+      "title": "Window Coverings Closed",
+      "description": "Close the window coverings"
+    },
+    "windowcoverings_set": {
+      "title": "Window Coverings Set",
+      "description": "Set the position of window coverings. 0% is closed, 100% is open"
+    },
+    "button": {
+      "title": "Button",
+      "description": "A push button"
+    },
+    "speaker_playing": {
+      "title": "Speaker Playing",
+      "description": "What the speaker is currently playing."
+    },
+    "speaker_next": {
+      "title": "Speaker Next",
+      "description": "Go to next item."
+    },
+    "speaker_prev": {
+      "title": "Speaker Previous",
+      "description": "Go to previous item."
+    },
+    "speaker_shuffle": {
+      "title": "Speaker Shuffle",
+      "description": "Shuffle speaker playback."
+    },
+    "speaker_repeat": {
+      "title": "Speaker Repeat",
+      "description": "Set the repeat type, none, track or playlist."
+    },
+    "speaker_artist": {
+      "title": "Speaker Artist",
+      "description": "Which artist the speaker is currently playing."
+    },
+    "speaker_album": {
+      "title": "Speaker Album",
+      "description": "Which album the speaker is currently playing."
+    },
+    "speaker_track": {
+      "title": "Speaker Track",
+      "description": "Which track the speaker is currently playing."
+    },
+    "speaker_duration": {
+      "title": "Speaker Duration",
+      "description": "Which duration of the current item."
+    },
+    "speaker_position": {
+      "title": "Speaker Position",
+      "description": "The speaker's current position"
+    },
+    "garagedoor_closed": {
+      "title": "Closed",
+      "description": "Toggle open or closed"
+    }
+  },
+  "category": {
+    "amplifier": {
+      "title": "Amplifier",
+      "description": "audio amplifier devices."
+    },
+    "blinds": {
+      "title": "Blinds",
+      "description": "blinds, both horizontal and vertical."
+    },
+    "button": {
+      "title": "Button",
+      "description": "buttons, and other items which do not have a state."
+    },
+    "coffeemachine": {
+      "title": "Coffee machine",
+      "description": "coffeemakers or coffee machines are cooking appliances used to brew coffee."
+    },
+    "curtain": {
+      "title": "Curtains",
+      "description": "electronic curtains which will move the material sideways along a rail."
+    },
+    "doorbell": {
+      "title": "Doorbell",
+      "description": "doorbells, and device which announce when a button is pressed."
+    },
+    "fan": {
+      "title": "Fan",
+      "description": "fans that cool your home."
+    },
+    "garagedoor": {
+      "title": "Garage door",
+      "description": "garage doors as well as other automatic doors and gates."
+    },
+    "heater": {
+      "title": "Heater",
+      "description": "heaters and other devices which warm your home."
+    },
+    "homealarm": {
+      "title": "Home Security",
+      "description": "home alarm systems."
+    },
+    "homeenergymonitor": {
+      "title": "Home Energy Monitor",
+      "description": "Devices that monitor a house's energy usage."
+    },
+    "kettle": {
+      "title": "Kettle",
+      "description": "Kettles and other devices that can heat water."
+    },
+    "light": {
+      "title": "Light",
+      "description": "an illuminating agent or source, lights, globes, lamps, etc."
+    },
+    "lock": {
+      "title": "Lock",
+      "description": "devices with locks."
+    },
+    "other": {
+      "title": "Other",
+      "description": "devices that do not fit any other device class."
+    },
+    "relay": {
+      "title": "Relay",
+      "description": "relays, which are connected to another device."
+    },
+    "remote": {
+      "title": "Remote",
+      "description": "TV, blinds, remote control, etc. All\ntypes of remote controls. \""
+    },
+    "sensor": {
+      "title": "Sensor",
+      "description": "contact, motion, fire, CO  or any type of sensor. As well as alarms!"
+    },
+    "socket": {
+      "title": "Wall Plug",
+      "description": "wall plugs and sockets."
+    },
+    "speaker": {
+      "title": "Speaker",
+      "description": "devices that can play audio, such as music."
+    },
+    "sunshade": {
+      "title": "Sunshade",
+      "description": "sunshades (window coverings against the sun)."
+    },
+    "thermostat": {
+      "title": "Thermostat",
+      "description": "thermostats, either for the entire home or radiator-mounted."
+    },
+    "tv": {
+      "title": "TV",
+      "description": "TV/televisions."
+    },
+    "vacuumcleaner": {
+      "title": "Vacuum Cleaner",
+      "description": "automated devices which clean floors on demand."
+    },
+    "windowcoverings": {
+      "title": "Window Coverings",
+      "description": "window coverings, for when the `curtains`, `blinds` or `sunshade` device class doesn't apply."
+    },
+    "alarm": {
+      "title": "Alarm",
+      "description": "Devices which contain an alarm, eg. sensors, contact, fire, smoke, CO, etc."
+    },
+    "camera": {
+      "title": "Camera",
+      "description": "Coming Soon."
+    }
+  },
+  "method": {
+    "all": {
+      "title": "On if all on",
+      "brief": "on if all devices are on",
+      "description": "On if all devices are on, otherwise off"
+    },
+    "always": {
+      "title": "Always On",
+      "brief": "always on",
+      "description": "Always returns to on"
+    },
+    "any": {
+      "title": "On if any on",
+      "brief": "on if any devices are on",
+      "description": "On if any devices are on"
+    },
+    "highest": {
+      "title": "Highest Value",
+      "brief": "the highest value",
+      "description": "The highest value of the all the grouped device"
+    },
+    "ignore": {
+      "title": "Ignore Devices",
+      "brief": "the last value set in the app",
+      "description": "Don't update, only use values set by the card"
+    },
+    "lowest": {
+      "title": "Lowest Value",
+      "brief": "the lowest value",
+      "description": "The lowest value of the all the grouped device"
+    },
+    "max": {
+      "title": "Maximum value",
+      "brief": "the highest value",
+      "description": "The value of the device with the largest value"
+    },
+    "mean": {
+      "title": "Mean Average",
+      "brief": "Average value (mean)",
+      "description": "The average your are used to (sum/count)"
+    },
+    "median": {
+      "title": "Median Average",
+      "brief": "the middle value (median)",
+      "description": "The value of the device in the middle"
+    },
+    "min": {
+      "title": "Minimum Value",
+      "brief": "the lowest value",
+      "description": "The value of the device with the smallest value"
+    },
+    "mode": {
+      "title": "Mode Average",
+      "brief": "the most common value",
+      "description": "The value which the most devices has"
+    },
+    "most": {
+      "title": "Most Devices",
+      "brief": "most common value",
+      "description": "On if at least half devices are on"
+    },
+    "never": {
+      "title": "Never On",
+      "brief": "never on",
+      "description": "Never on, always returns to off"
+    },
+    "none": {
+      "title": "On unless all on",
+      "brief": "on unless all devices  on",
+      "description": "Off if all devices are on, otherwise on"
+    },
+    "sum": {
+      "title": "Total Value",
+      "brief": "the sum of all devices",
+      "description": "The sum of all the grouped device values"
+    },
+    "nor": {
+      "title": "On if None on",
+      "brief": "on if none no devices are on",
+      "description": "On if all devices are off, otherwise off"
+    },
+    "xor": {
+      "title": "On unless all on or off",
+      "brief": "on unless all devices are on or all off",
+      "description": "Off when all devices are off or all devices are on"
+    }
+  },
+  "device": {
+    "initEvents": {
+      "deviceNotReady": "Oops, it looks like this group contains a device which was not ready, please restart this app once are sure all devices with in the group are working."
+    }
+  },
+  "pair": {
+    "capabilities": {
+      "title": "Select the capabilities of the group",
+      "loading": "loading"
+    },
+    "devices": {
+      "title": "Select devices to group",
+      "loading": "Gathering all of your devices",
+      "empty": {
+        "title": "Sorry no devices found",
+        "description": "We were unable to find any devices with those particular attributes."
+      }
+    },
+    "icons": {
+      "title": "Choose your icon",
+      "loading": "Loading possible icons"
+    },
+    "group": {
+      "title": "Grouping your devices..",
+      "loading": "Adding your new group, this will only take a couple of seconds."
+    },
+    "fused": {
+      "title": "For each capability, select which device to utilise",
+      "ignore": "Do not include"
+    }
+  },
+  "settings": {
+    "sorry": "Sorry you have not created any groups yet, please create a group and come back to edit it.",
+    "deleted": "[DELETED]",
+    "empty": "Sorry you have not created any groups yet, please create a group and come back to edit it."
+  },
+  "repair": {
+    "unavailable": "Repairing this type of device is not possible.",
+    "test": {
+      "message": "This is a test"
+    }
+  },
+  "notice": {
+    "unavailable": "Repairing this type of device is not possible.",
+    "amplifier": "Use this class for grouping audio amplifier devices.",
+    "blinds": "Use this grouping  blinds, both horizontal and vertical. If you are unable to find the device please check with in curtains sunshade or window coverings.",
+    "button": "Use this for grouping buttons, such as a remote.",
+    "coffeemachine": "Use this for grouping coffee machines.",
+    "curtain": "Use this for grouping curtains.",
+    "doorbell": "Use this grouping doorbells.",
+    "fan": "Use this for grouping fans that cool your home.",
+    "garagedoor": "Use this for grouping garage doors..",
+    "heater": "Use this for grouping heaters, that warm your home.",
+    "homealarm": "Use this for grouping home alarm systems.",
+    "kettle": "Use this for grouping for kettle devices, that can heat water.",
+    "light": "Use this for grouping lights, this will also work with sockets which have been set as lights.",
+    "lock": "Use this for grouping lock devices.",
+    "other": {
+      "fused": "These are a special type, which \"fuse\" devices together, creating a single device out of one or more devices.<br><br>When creating a new group, you will be asked which device to control for which action.<br><br>Fusing groups can be useful in situations like when you have a zwave switch and a hue globe and you may want to use the switch when turning off/on or reading the power, but the hue globe when setting the dim/color.",
+      "merged": "Group that include devices with different capabilities.<br><br>You can use these groups to control similar devices, for example a group with a light which only dims and a light which has colour changing capability.<br><br>When changing the the brightness, a blended group will change all devices brightness, but changing the colour will only change that on the devices where it is possible.",
+      "united": "These same as a normal group, but you are no longer restricted to a single device class.<br><br>You can use these groups for additional flexibility, or advance use cases, but the advance settings are harder to manage.<br><br> Please ensure that you do not create groups which are circular/recursive in nature.",
+      "blended": "Group that include devices with different capabilities.<br><br>You can use these groups to control similar devices, for example a group with a light which only dims and a light which has colour changing capability.<br><br>When changing the the brightness, a blended group will change all devices brightness, but changing the colour will only change that on the devices where it is possible.<br><br> Please ensure that you do not create groups which are circular/recursive in nature."
+    },
+    "other.fused": "",
+    "other.merged": "",
+    "other.united": "",
+    "relay": "Use this grouping relays, which are connected to another device.",
+    "remote": "Use this grouping (TV/Sunblind/Keyfob etc.) remotes.",
+    "sensor": {
+      "motion": "Use this for grouping motion sensors.",
+      "contact": "Use this for grouping contact sensors.",
+      "temperature": "Use this for grouping temperature sensors."
+    },
+    "sensor.contact": "Use this for grouping contact sensors.",
+    "sensor.motion": "Use this for grouping motion sensors.",
+    "sensor.temperature": "Use this for grouping temperature sensors.",
+    "socket": "Use this grouping sockets (built-in or plug-in socket switches).",
+    "solarpanel": "Use this grouping solar panels.",
+    "speaker": "Use this grouping devices that can play music.",
+    "sunshade": "Use this grouping sunshades (window coverings against the sun), some blinds or curtains may use this type of group.",
+    "thermostat": "Use this grouping thermostats, either for the entire home or radiator-mounted, usually together with the ability to measure the temperature, or set a target temperature.",
+    "tv": "Use this grouping  TVs.",
+    "vacuumcleaner": "Use this grouping vacuum cleaners.",
+    "windowcoverings": "Use this grouping window coverings, when the `curtains`, `blinds` or `sunshade` device class doesn't apply."
+  }
+}

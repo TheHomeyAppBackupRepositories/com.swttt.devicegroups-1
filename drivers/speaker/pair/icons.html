@@ -1,0 +1,73 @@
+<style>
+    [v-cloak] {
+        display: none;
+    }
+
+    #icons-list {
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+    .device.tile {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 2.5px;
+    }
+
+    .device.tile .icon.bg {
+        width: 5em;
+        height: 5em;
+    }
+
+
+</style>
+<script>
+
+    Homey.showLoadingOverlay();
+    Homey.setTitle( Homey.__("pair.icons.title") );
+
+    $('#hy-overlay-loading-message').html( Homey.__("pair.icons.loading") );
+
+
+
+    Homey.emit('icons.initialised', null, function (err, result) {
+
+        new Vue({
+            el: '#all-icons',
+            data: {
+                icons: result,
+            },
+            mounted() {
+                Homey.hideLoadingOverlay();
+            },
+            methods: {
+                addClass(deviceclass) {
+                    Homey.emit('icons.changed', {'icon': deviceclass}, function (err, result) {
+                        if (err) {
+                            console.log(err);
+                            return;
+                        }
+                        Homey.nextView();
+                    });
+                }
+            }
+        });
+    });
+
+</script>
+
+<div id="all-icons">
+    <template v-cloak>
+        <ul id="icons-list">
+            <li v-for="(value, key) in icons" v-on:click="addClass(value)" class="device tile">
+                <div class="content">
+                    <div class="icon-wrap">
+                        <div class="icon bg " v-bind:style="{WebkitMaskImage: 'url(' + key + ')'}"></div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </template>
+</div>

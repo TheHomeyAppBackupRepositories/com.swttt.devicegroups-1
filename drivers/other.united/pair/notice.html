@@ -1,0 +1,99 @@
+<style>
+    [v-cloak] {
+        display: none;
+    }
+
+    .message .message-title {
+        text-align: center;
+        margin: 1em;
+    }
+
+    .device span.name {
+        padding-left: 1em;
+    }
+
+    .small, small {
+        font-size: 80%;
+        font-weight: 400;
+    }
+
+    .text-center {
+        text-align: center!important;
+    }
+
+    .visible {
+        visibility: visible!important;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+
+    .img-fluid {
+        max-width: 50%;
+        height: auto;
+    }
+
+    img {
+        vertical-align: middle;
+        border-style: none;
+    }
+
+    .flex-column {
+        -ms-flex-direction: column!important;
+        flex-direction: column!important;
+    }
+
+    .d-flex {
+        display: -ms-flexbox!important;
+        display: flex!important;
+    }
+
+
+    .mb-2, .my-2 {
+        margin-bottom: 0.5rem!important;
+    }
+    .mt-2, .my-2 {
+        margin-top: 0.5rem!important;
+    }
+
+    .mb-4, .my-4 {
+        margin-bottom: 2rem!important;
+    }
+    .mt-4, .my-4 {
+        margin-top: 2rem!important;
+    }
+
+
+
+
+</style>
+
+
+<main>
+    <section>
+        <div class="d-flex flex-column justify-items-center">
+            <div class="text-center my-4">
+<!--                <img src="../../../assets/images/v3-large.png" class="img-fluid">-->
+                <img src="../assets/images/large.png" class="img-fluid">
+            </div>
+            <div>
+                <p id="notice-message" class="text-center" data-i18n="pair.unavailable"></p>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+<script>
+    Homey.emit('notice.initialised', {}).then( (message) => {
+
+        $('#notice-message').html(message)
+
+    }).catch((e) => {
+        Homey.alert(e, 'error');
+        Homey.done();
+    });
+
+</script>

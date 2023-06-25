@@ -1,0 +1,22 @@
+<script>
+
+    Homey.showLoadingOverlay();
+    Homey.setTitle( Homey.__("pair.group.title") );
+
+    $('#hy-overlay-loading-message').html( Homey.__("pair.group.loading") );
+
+    Homey.emit('group.initialised', {}).then( (group) => {
+        Homey.createDevice(group).then((result) => {
+            Homey.emit('group.finalised', null).then(() => {
+                Homey.done();
+            });
+        }).catch((e) => {
+            Homey.alert(e, 'error');
+            Homey.done();
+        });
+    }).catch((e) => {
+        Homey.alert(e, 'error');
+        Homey.done();
+    });
+
+</script>

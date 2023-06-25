@@ -1,0 +1,33 @@
+16805883120 [info] [device:ThisGroup] [js:191:25]  {
+ registerMultipleCapabilityListener {"onoff":true}
+}
+16805883121 [debug] [device:ThisGroup] [onStateChange]  {
+ onoff [ false, false, true, true ]
+}
+16805883122 [debug] [device:ThisGroup] [setGroupCapabilityValue]  {
+ onoff [ false, false, true, true ]
+}
+16805883122 [info] [device:ThisGroup] [setDeviceCapabilityValue]  {
+ Success: attempt 1 to set onoff for Study Switch(true)
+}
+16805883124 [debug] [device:ThisGroup] [onStateChange]  {
+ onoff [ true, false, true, true ]
+}
+16805883124 [info] [device:ThisGroup] [setDeviceCapabilityValue]  {
+ Success: attempt 1 to set onoff for Study Table Lamp Globe(true)
+}
+16805883124 [debug] [device:ThisGroup] [setGroupCapabilityValue]  {
+ onoff [ true, false, true, true ]
+}
+16805883125 [debug] [device:ThisGroup] [onStateChange]  {
+ onoff [ true, true, true, true ]
+}
+16805883125 [info] [device:ThisGroup] [setDeviceCapabilityValue]  {
+ Success: attempt 1 to set onoff for Study Floor Lamp Globe(true)
+}
+16805883125 [debug] [device:ThisGroup] [setGroupCapabilityValue]  {
+ onoff [ true, true, true, true ]
+}
+16805883125 [info] [device:ThisGroup] [setDeviceCapabilityValue]  {
+ Success: attempt 1 to set onoff for Study Fixture Globe 4(true)
+}

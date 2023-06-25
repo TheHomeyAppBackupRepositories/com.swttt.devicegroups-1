@@ -1,0 +1,24 @@
+body {
+    font-size: 80%;
+}
+
+/* Fixes default bootstrap a link */
+a:hover {
+    text-decoration: none;
+}
+
+/* Fixes default homey list style */
+.breadcrumb {
+    margin:0;
+}
+
+.busy-indicator > div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.list-span + .list-span:before {
+    content: ", ";
+}

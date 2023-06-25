@@ -1,0 +1,532 @@
+{
+  "settings": {
+    "empty": "Du har inte skapa någon grupp ännu, skapa först en grupp och sedan kan du editera den här.",
+    "deleted": "[BORTTAGEN]"
+  },
+  "capability": {
+    "onoff": {
+      "title": "Påslagen",
+      "description": "Status för en enhet, på eller av."
+    },
+    "dim": {
+      "title": "Ljusstyrka",
+      "description": "Ljusstyrka för en enhet i % av dess möjliga fulla värde"
+    },
+    "light_hue": {
+      "title": "Nyans",
+      "description": "Ljusets nyans"
+    },
+    "light_saturation": {
+      "title": "Färgmättnad",
+      "description": "Färgens intensitet"
+    },
+    "light_temperature": {
+      "title": "Färgtemperatur",
+      "description": "Det vita ljusets temperatur, från varmt till kallt i decimaltal"
+    },
+    "light_mode": {
+      "title": "Ljusläge",
+      "description": "Byt mellan färg- och temperaturläge"
+    },
+    "vacuumcleaner_state": {
+      "title": "Vacuum cleaner state",
+      "description": "The state of a a vacuum cleaner, either it is cleaning, spot cleaning, docked, charging or stopped"
+    },
+    "thermostat_mode": {
+      "title": "Thermostat mode",
+      "description": "Mode of the thermostat, either it is set to auto, heat, cool or off."
+    },
+    "target_temperature": {
+      "title": "Target temperature",
+      "description": "Set the temperature which a device should target"
+    },
+    "measure_temperature": {
+      "title": "Temperature",
+      "description": "Temperature in celsius (°c)"
+    },
+    "measure_co": {
+      "title": "Carbon monoxide",
+      "description": "CO in Parts-per-million (ppm)"
+    },
+    "measure_co2": {
+      "title": "Carbon dioxide",
+      "description": "CO₂ in Parts-per-million (ppm)"
+    },
+    "measure_pm25": {
+      "title": "PM2.5",
+      "description": "Atmospheric Particulate Matter (μg/m3)"
+    },
+    "measure_humidity": {
+      "title": "Humidity",
+      "description": "Humidity in percentage (%)"
+    },
+    "measure_pressure": {
+      "title": "Pressure",
+      "description": "Pressure in millibar (mbar)"
+    },
+    "measure_noise": {
+      "title": "Noise",
+      "description": "Noise in Decibel (db)"
+    },
+    "measure_rain": {
+      "title": "Rain",
+      "description": "Rain in millimeter (mm)"
+    },
+    "measure_wind_strength": {
+      "title": "Wind Strength",
+      "description": "Wind Strength in Kilometer per hour (km/h)"
+    },
+    "measure_wind_angle": {
+      "title": "Wind Angle",
+      "description": "Wind Angle in Degrees (°)"
+    },
+    "measure_gust_strength": {
+      "title": "Gust Strength",
+      "description": "Gust Strength n Kilometer per hour (km/h)"
+    },
+    "measure_gust_angle": {
+      "title": "Gust Angle",
+      "description": "Gust Angle in Degrees (°)"
+    },
+    "measure_battery": {
+      "title": "Battery",
+      "description": "Battery charge in percentage (%)"
+    },
+    "measure_power": {
+      "title": "Power",
+      "description": "Power in Watt (W)"
+    },
+    "measure_voltage": {
+      "title": "Voltage",
+      "description": "Electric voltage in Volts (V)"
+    },
+    "measure_current": {
+      "title": "Current",
+      "description": "Electric current in Amps (A)"
+    },
+    "measure_luminance": {
+      "title": "Luminance",
+      "description": "Luminance in Lux (lx)"
+    },
+    "measure_ultraviolet": {
+      "title": "Ultraviolet",
+      "description": "Ultraviolet in UV index (UVI)"
+    },
+    "measure_water": {
+      "title": "Water",
+      "description": "Water flow in Liters per minute (L/min)"
+    },
+    "alarm_generic": {
+      "title": "Generic Alarm",
+      "description": "Generic Alarm"
+    },
+    "alarm_motion": {
+      "title": "Motion Alarm",
+      "description": "Alarms when motion is detected"
+    },
+    "alarm_contact": {
+      "title": "Contact Alarm",
+      "description": "Alarms when a Contact sensor is severed, e.g. when window or door is opened"
+    },
+    "alarm_co": {
+      "title": "CO Alarm",
+      "description": "Alarms when dangerous CO values have been detected"
+    },
+    "alarm_co2": {
+      "title": "CO₂ Alarm",
+      "description": "Alarms when dangerous CO₂ values have been detected"
+    },
+    "alarm_pm25": {
+      "title": "PM2.5 Alarm",
+      "description": "Alarms when PM2.5 values exceeds threshold"
+    },
+    "alarm_tamper": {
+      "title": "Tamper Alarm",
+      "description": "Alarms when tampering has been detected"
+    },
+    "alarm_smoke": {
+      "title": "Smoke Alarm",
+      "description": "Alarms when smoke has been detected"
+    },
+    "alarm_fire": {
+      "title": "Fire Alarm",
+      "description": "Alarms when fire has been detected"
+    },
+    "alarm_heat": {
+      "title": "Heat Alarm",
+      "description": "Alarms when extreme heat has been detected"
+    },
+    "alarm_water": {
+      "title": "Water Alarm",
+      "description": "Alarms when water has been detected"
+    },
+    "alarm_battery": {
+      "title": "Battery Alarm",
+      "description": "Alarms when there is a battery warning, generally low battery"
+    },
+    "alarm_night": {
+      "title": "Night Alarm",
+      "description": "Alarms when it is night time"
+    },
+    "meter_power": {
+      "title": "Power Meter",
+      "description": "Power usage in kilowatt hour (kWh)"
+    },
+    "meter_water": {
+      "title": "Water Meter",
+      "description": "Water usage in Cubic Meter (m³)"
+    },
+    "meter_gas": {
+      "title": "Gas Meter",
+      "description": "Gas usage in Cubic Meter (m³)"
+    },
+    "meter_rain": {
+      "title": "Rain Meter",
+      "description": "Rain in Cubic Meter (m³)"
+    },
+    "homealarm_state": {
+      "title": "Home Alarm state",
+      "description": "Switch between armed, disarmed and partially armed"
+    },
+    "volume_set": {
+      "title": "Set Volume",
+      "description": "Set volume to"
+    },
+    "volume_up": {
+      "title": "Volume up",
+      "description": "Turn the volume up"
+    },
+    "volume_down": {
+      "title": "Volume down",
+      "description": "Turn the volume down"
+    },
+    "volume_mute": {
+      "title": "Volume muted",
+      "description": "Mute the volume"
+    },
+    "channel_up": {
+      "title": "Channel up",
+      "description": "Change the channel up one"
+    },
+    "channel_down": {
+      "title": "Channel down",
+      "description": "Change the channel down one"
+    },
+    "locked": {
+      "title": "Locked",
+      "description": "True when the lock is locked"
+    },
+    "lock_mode": {
+      "title": "Lock mode",
+      "description": "Switch between Always locked, always unlocked and locked until unlocked modes"
+    },
+    "windowcoverings_state": {
+      "title": "Window Coverings State",
+      "description": "Whether a window cover is up, down or idle"
+    },
+    "windowcoverings_tilt_up": {
+      "title": "Window Coverings Tilt Up",
+      "description": "Tilt Window Coverings Up"
+    },
+    "windowcoverings_tilt_down": {
+      "title": "Window Coverings Tilt Down",
+      "description": "Tilt Window Coverings Down"
+    },
+    "windowcoverings_tilt_set": {
+      "title": "Window Coverings Tilt Set",
+      "description": "Set the tilt value of the window covering"
+    },
+    "windowcoverings_closed": {
+      "title": "Window Coverings Closed",
+      "description": "Close the window coverings"
+    },
+    "windowcoverings_set": {
+      "title": "Window Coverings Set",
+      "description": "Set the position of window coverings. 0% is closed, 100% is open"
+    },
+    "button": {
+      "title": "Button",
+      "description": "A push button"
+    },
+    "speaker_playing": {
+      "title": "Speaker Playing",
+      "description": "What the speaker is currently playing."
+    },
+    "speaker_next": {
+      "title": "Speaker Next",
+      "description": "Go to next item."
+    },
+    "speaker_prev": {
+      "title": "Speaker Previous",
+      "description": "Go to previous item."
+    },
+    "speaker_shuffle": {
+      "title": "Speaker Shuffle",
+      "description": "Shuffle speaker playback."
+    },
+    "speaker_repeat": {
+      "title": "Speaker Repeat",
+      "description": "Set the repeat type, none, track or playlist."
+    },
+    "speaker_artist": {
+      "title": "Speaker Artist",
+      "description": "Which artist the speaker is currently playing."
+    },
+    "speaker_album": {
+      "title": "Speaker Album",
+      "description": "Which album the speaker is currently playing."
+    },
+    "speaker_track": {
+      "title": "Speaker Track",
+      "description": "Which track the speaker is currently playing."
+    },
+    "speaker_duration": {
+      "title": "Speaker Duration",
+      "description": "Which duration of the current item."
+    },
+    "speaker_position": {
+      "title": "Speaker Position",
+      "description": "The speaker's current position"
+    },
+    "garagedoor_closed": {
+      "title": "Stängd",
+      "description": "Växla mellan öppen eller stängd"
+    }
+  },
+  "category": {
+    "alarm": {
+      "title": "Alarm",
+      "description": "Devices which contain an alarm, eg. sensors, contact, fire, smoke, CO, etc."
+    },
+    "amplifier": {
+      "title": "Amplifier",
+      "description": "audio amplifier devices."
+    },
+    "blinds": {
+      "title": "Blinds",
+      "description": "blinds, both horizontal and vertical."
+    },
+    "button": {
+      "title": "Button",
+      "description": "buttons, and other items which do not have a state."
+    },
+    "coffeemachine": {
+      "title": "Coffee machine",
+      "description": "coffeemakers or coffee machines are cooking appliances used to brew coffee."
+    },
+    "curtain": {
+      "title": "Curtains",
+      "description": "electronic curtains which will move the material sideways along a rail."
+    },
+    "doorbell": {
+      "title": "Doorbell",
+      "description": "doorbells, and device which announce when a button is pressed."
+    },
+    "fan": {
+      "title": "Fan",
+      "description": "fans that cool your home."
+    },
+    "garagedoor": {
+      "title": "Garage door",
+      "description": "garage doors as well as other automatic doors and gates."
+    },
+    "heater": {
+      "title": "Heater",
+      "description": "heaters and other devices which warm your home."
+    },
+    "homealarm": {
+      "title": "Home Security",
+      "description": "home alarm systems."
+    },
+    "homeenergymonitor": {
+      "title": "Home Energy Monitor",
+      "description": "Devices that monitor a house's energy usage."
+    },
+    "kettle": {
+      "title": "Kettle",
+      "description": "Kettles and other devices that can heat water."
+    },
+    "light": {
+      "title": "Light",
+      "description": "an illuminating agent or source, lights, globes, lamps, etc."
+    },
+    "lock": {
+      "title": "Lock",
+      "description": "devices with locks."
+    },
+    "other": {
+      "title": "Other",
+      "description": "devices that do not fit any other device class."
+    },
+    "relay": {
+      "title": "Relay",
+      "description": "relays, which are connected to another device."
+    },
+    "remote": {
+      "title": "Remote",
+      "description": "TV, blinds, remote control, etc. All\ntypes of remote controls. \""
+    },
+    "sensor": {
+      "title": "Sensor",
+      "description": "contact, motion, fire, CO  or any type of sensor. As well as alarms!"
+    },
+    "socket": {
+      "title": "Wall Plug",
+      "description": "wall plugs and sockets."
+    },
+    "speaker": {
+      "title": "Speaker",
+      "description": "devices that can play audio, such as music."
+    },
+    "sunshade": {
+      "title": "Sunshade",
+      "description": "sunshades (window coverings against the sun)."
+    },
+    "thermostat": {
+      "title": "Thermostat",
+      "description": "thermostats, either for the entire home or radiator-mounted."
+    },
+    "tv": {
+      "title": "TV",
+      "description": "TV/televisions."
+    },
+    "vacuumcleaner": {
+      "title": "Vacuum Cleaner",
+      "description": "automated devices which clean floors on demand."
+    },
+    "windowcoverings": {
+      "title": "Window Coverings",
+      "description": "window coverings, for when the `curtains`, `blinds` or `sunshade` device class doesn't apply."
+    },
+    "camera": {
+      "title": "Camera",
+      "description": "Coming Soon."
+    }
+  },
+  "method": {
+    "all": {
+      "title": "På om alla är på",
+      "brief": "på om alla enheter är på",
+      "description": "På om alla enheter är på, annars av"
+    },
+    "always": {
+      "title": "Alltid På",
+      "brief": "alltid på",
+      "description": "Återgår alltid till på"
+    },
+    "any": {
+      "title": "På om någon är på",
+      "brief": "på om någon enhet är på",
+      "description": "På om någon enhet är på"
+    },
+    "highest": {
+      "title": "Hösta Värde",
+      "brief": "det högsta värdet",
+      "description": "Det hösta värdet på någon av alla grupperade enheter"
+    },
+    "ignore": {
+      "title": "Ignorera Enheter",
+      "brief": "det sista värdet som satts i appen",
+      "description": "Uppdatera inte, använd endast värden satta av kortet"
+    },
+    "lowest": {
+      "title": "Lägsta Värde",
+      "brief": "det lägsta värdet",
+      "description": "Det lägsta värdet på någon av alla grupperade enheter"
+    },
+    "max": {
+      "title": "Hösta Värde",
+      "brief": "det högsta värdet",
+      "description": "Värdet på enheten med det högsta värdet"
+    },
+    "mean": {
+      "title": "Medelvärdet",
+      "brief": "medelvärdet (medel)",
+      "description": "Summan av enheternas värden delat med antal enheter (medelvärde)"
+    },
+    "median": {
+      "title": "Medianvärde",
+      "brief": "medianvärdet (medianen)",
+      "description": "Värdet av enheten i mitten på en skala av enheters värden"
+    },
+    "min": {
+      "title": "Minsta värde",
+      "brief": "det lägsta värdet",
+      "description": "Värdet på enheten med det minsta värdet"
+    },
+    "mode": {
+      "title": "Genomsnittligt läge",
+      "brief": "det vanligaste värdet",
+      "description": "Värdet som flest enheter har"
+    },
+    "most": {
+      "title": "De flesta enheter",
+      "brief": "de vanligaste värdet",
+      "description": "På om minst hälften av enheterna är på"
+    },
+    "never": {
+      "title": "Aldrig på",
+      "brief": "aldrig på",
+      "description": "Aldrig på, återvänder alltid till av"
+    },
+    "none": {
+      "title": "På om inte alla är på",
+      "brief": "på om inte alla enheter är på",
+      "description": "Av om alla enheter är på, annars på"
+    },
+    "sum": {
+      "title": "Summerat värde",
+      "brief": "summan av alla enheter",
+      "description": "Summan av alla grupperade enheters värden"
+    },
+    "nor": {
+      "title": "På om inte någon är på",
+      "brief": "på om ingen enhet är på",
+      "description": "På om alla enheter är av, annars av"
+    },
+    "xor": {
+      "title": "På om inta alla är på eller av",
+      "brief": "på om inta alla enheter är på eller alla är av",
+      "description": "Av när alla enheter är av eller alla enheter är på"
+    }
+  },
+  "pair": {
+    "capabilities": {
+      "title": "Välj gruppens förmågor",
+      "loading": "laddar"
+    },
+    "devices": {
+      "title": "Välj enheter att gruppera",
+      "loading": "Samlar in alla enheter med dessa förmågor",
+      "empty": {
+        "title": "Ingen enhet funnen",
+        "description": "Hittade inga enheter med de angivna förmågorna, tryck 'föregående' för att gå tillbaka."
+      }
+    },
+    "icons": {
+      "title": "Välj ikon",
+      "loading": "Läser in möjliga ikoner"
+    },
+    "group": {
+      "title": "Grupperar dina enheter..",
+      "loading": "Lägger till din nya grupp, det tar ett par sekunder."
+    }
+  },
+  "_": {
+    "about": "om",
+    "group": "grupp",
+    "groups": "grupper",
+    "group name": "gruppnamn",
+    "capability": "kompetens",
+    "capabilities": "förmågor",
+    "category": "kategori",
+    "categories": "kategorier",
+    "device": "enhet",
+    "devices": "enheter",
+    "icon": "ikon",
+    "icons": "ikoner",
+    "other": "övrigt",
+    "unavailable": "inte tillgängligt",
+    "offline": "offline"
+  }
+}

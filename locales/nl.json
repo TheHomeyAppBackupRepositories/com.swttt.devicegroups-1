@@ -1,0 +1,542 @@
+{
+  "category": {
+    "amplifier": {
+      "title": "Versterker",
+      "description": "apparaat voor audioversterking."
+    },
+    "blinds": {
+      "title": "Jaloezieën & Lamellen",
+      "description": "blinderingen, zowel horizontaal als verticaal"
+    },
+    "button": {
+      "title": "Knop",
+      "description": "knoppen en andere items die geen status hebben."
+    },
+    "coffeemachine": {
+      "title": "Koffiemachine",
+      "description": "koffiemachines zijn kooktoestellen voor het zetten van koffie."
+    },
+    "curtain": {
+      "title": "Gordijnen",
+      "description": "elektrische gordijnen, deze bewegen het gordijn over een rails."
+    },
+    "doorbell": {
+      "title": "Deurbel",
+      "description": "deurbellen, en apparaten welke aankondigen dat er op een knop is gedrukt."
+    },
+    "fan": {
+      "title": "Ventilator",
+      "description": "ventilator welke je huis koelt."
+    },
+    "garagedoor": {
+      "title": "Garagedeur",
+      "description": "garagedeuren en andere automatische deur en poort openers."
+    },
+    "heater": {
+      "title": "Verwarmer",
+      "description": "Verwarmers en andere apparaten welke je huis verwarmen."
+    },
+    "homealarm": {
+      "title": "Huisbeveiliging",
+      "description": "beveiliging systeem voor je woning."
+    },
+    "homeenergymonitor": {
+      "title": "Energiemonitor",
+      "description": "Apparaat die je energie verbruik bijhoud."
+    },
+    "kettle": {
+      "title": "Waterkoker",
+      "description": "waterkokers en andere apparaten die water verwarmen."
+    },
+    "light": {
+      "title": "Lamp",
+      "description": "een verlichtingsmiddel of bron."
+    },
+    "lock": {
+      "title": "Slot",
+      "description": "apparaat met of voor een slot."
+    },
+    "other": {
+      "title": "Overig",
+      "description": "apparaten die niet in een andere klasse passen."
+    },
+    "relay": {
+      "title": "Relais",
+      "description": "relais welke zijn verbonden met een ander apparaat ."
+    },
+    "remote": {
+      "title": "Afstandsbediening",
+      "description": "TV, jaloezieën, sleutelhanger of elk type afstandsbediening."
+    },
+    "sensor": {
+      "title": "Sensor",
+      "description": "contact, beweging, vuur, CO of elk type sensor. Evenals alarmen!"
+    },
+    "socket": {
+      "title": "Schakeldoos",
+      "description": "muurpluggen en stopcontacten.\n"
+    },
+    "speaker": {
+      "title": "Speaker",
+      "description": "apparaten die audio kunnen afspelen, zoals muziek."
+    },
+    "sunshade": {
+      "title": "Zonnescherm",
+      "description": "parasols (raambedekking tegen de zon)."
+    },
+    "thermostat": {
+      "title": "Thermostaat",
+      "description": "thermostaten, voor het hele huis of op een radiator."
+    },
+    "tv": {
+      "title": "TV",
+      "description": "TV/televisies."
+    },
+    "vacuumcleaner": {
+      "title": "Stofzuiger",
+      "description": "geautomatiseerde apparaten die vloeren op verzoek reinigen."
+    },
+    "windowcoverings": {
+      "title": "Raambekleding",
+      "description": "raambekleding, voor het geval de klassen 'gordijnen', 'jaloezieën' of 'jaloezieën' niet van toepassing zijn."
+    },
+    "alarm": {
+      "title": "Alarm",
+      "description": "Apparaten met een alarm, bijv. Sensoren, contact, vuur, rook, koolmonoxide, enz"
+    },
+    "camera": {
+      "title": "Camera",
+      "description": "Coming Soon."
+    }
+  },
+  "method": {
+    "all": {
+      "title": "On if all on",
+      "description": "On if all devices are on. otherwise off",
+      "brief": "on if all devices are on"
+    },
+    "always": {
+      "title": "Always On",
+      "description": "Always returns to on",
+      "brief": "always on"
+    },
+    "any": {
+      "title": "On if any on",
+      "description": "On if any devices are on",
+      "brief": "on if any devices are on"
+    },
+    "highest": {
+      "title": "Highest Value",
+      "description": "The highest value of the all the grouped devices",
+      "brief": "the highest value"
+    },
+    "ignore": {
+      "title": "Ignore Devices",
+      "description": "Don't update, only use values set by the card",
+      "brief": "the last value set in the app"
+    },
+    "lowest": {
+      "title": "Lowest Value",
+      "description": "The lowest value of the all the grouped devices",
+      "brief": "the lowest value"
+    },
+    "max": {
+      "title": "Maximum value",
+      "description": "The value of the device with the largest value",
+      "brief": "the highest value"
+    },
+    "mean": {
+      "title": "Mean Average",
+      "description": "The average your are used to (sum/count)",
+      "brief": "the average value (mean)"
+    },
+    "median": {
+      "title": "Median Average",
+      "description": "The value of the device in the middle",
+      "brief": "the middle value (median)"
+    },
+    "min": {
+      "title": "Minimum Value",
+      "description": "The value of the device with the smallest value",
+      "brief": "the lowest value"
+    },
+    "mode": {
+      "title": "Mode Average",
+      "description": "The value which the most devices has",
+      "brief": "the most common value"
+    },
+    "most": {
+      "title": "Most Devices",
+      "description": "On if at least half devices are on",
+      "brief": "most common value"
+    },
+    "never": {
+      "title": "Never On",
+      "description": "Never on, always returns to off",
+      "brief": "never on"
+    },
+    "none": {
+      "title": "On unless all on",
+      "description": "Off if all devices are on, otherwise on",
+      "brief": "on unless all devices  on"
+    },
+    "sum": {
+      "title": "Total Value",
+      "description": "The sum of all the grouped device values",
+      "brief": "the sum of all devices"
+    },
+    "nor": {
+      "title": "On if None on",
+      "description": "On if all devices are off, otherwise off",
+      "brief": "on if none no devices are on"
+    },
+    "xor": {
+      "title": "On unless all on or off",
+      "description": "Off when all devices are off or all devices are on",
+      "brief": "on unless all devices are on or all off"
+    }
+  },
+  "capability": {
+    "onoff": {
+      "title": "Aangezet",
+      "description": "Whether a device is on or off."
+    },
+    "dim": {
+      "title": "Dim niveau",
+      "description": "Dims level of a device as a percentage of its full value"
+    },
+    "light_hue": {
+      "title": "Hue",
+      "description": "The colour of the light"
+    },
+    "light_saturation": {
+      "title": "Kleurverzadiging",
+      "description": "The colour intensity"
+    },
+    "light_temperature": {
+      "title": "Kleurtemperatuur",
+      "description": "The white light temperature warm to cold as a decimal"
+    },
+    "light_mode": {
+      "title": "Lamp modus",
+      "description": "Schakel tussen Kleur of Temperatuur modus"
+    },
+    "vacuumcleaner_state": {
+      "title": "Vacuum cleaner state",
+      "description": "The state of a a vacuum cleaner, either it is cleaning, spot cleaning, docked, charging or stopped"
+    },
+    "thermostat_mode": {
+      "title": "Thermostaat modus",
+      "description": "Modus van de thermostaat"
+    },
+    "target_temperature": {
+      "title": "Ingestelde temperatuur",
+      "description": "Set the temperature which a device should target"
+    },
+    "measure_temperature": {
+      "title": "Temperatuur",
+      "description": "Temperatuur in graden Celsius (°c)"
+    },
+    "measure_co": {
+      "title": "Carbon monoxide",
+      "description": "CO deeltjes per miljoen (ppm)"
+    },
+    "measure_co2": {
+      "title": "Carbon dioxide",
+      "description": "CO₂ deeltjes per miljoen (ppm)"
+    },
+    "measure_pm25": {
+      "title": "PM2.5",
+      "description": "Deeltjesvormige luchtverontreiniging (μg/m3)"
+    },
+    "measure_humidity": {
+      "title": "Luchtvochtigheid",
+      "description": "Relatieve luchtvochtigheid (%)"
+    },
+    "measure_pressure": {
+      "title": "Druk",
+      "description": "Druk in millibar (mbar)"
+    },
+    "measure_noise": {
+      "title": "Geluid",
+      "description": "Geluid in Decibel (db)"
+    },
+    "measure_rain": {
+      "title": "Regen",
+      "description": "Regen in millimeter (mm)"
+    },
+    "measure_wind_strength": {
+      "title": "Windsnelheid",
+      "description": "Windsnelheid in Kilometer per uur (km/u)"
+    },
+    "measure_wind_angle": {
+      "title": "Windrichting",
+      "description": "Windrichting in Graden (°)"
+    },
+    "measure_gust_strength": {
+      "title": "Windstoot kracht",
+      "description": "Windstoot snelheid in Kilometer per uur (km/u)"
+    },
+    "measure_gust_angle": {
+      "title": "Windstoot richting",
+      "description": "Windstoot richting in Graden (°)"
+    },
+    "measure_battery": {
+      "title": "Accuniveau",
+      "description": "Accuniveau in procenten (%)"
+    },
+    "measure_power": {
+      "title": "Energie",
+      "description": "Vermogen in Watt (W)"
+    },
+    "measure_voltage": {
+      "title": "Voltage",
+      "description": "Voltage (V)"
+    },
+    "measure_current": {
+      "title": "Stroom",
+      "description": "Elektrische stroom (A)"
+    },
+    "measure_luminance": {
+      "title": "Helderheid",
+      "description": "Helderheid in Lux (lx)"
+    },
+    "measure_ultraviolet": {
+      "title": "Ultraviolet",
+      "description": "Ultraviolet in UV index (UVI)"
+    },
+    "measure_water": {
+      "title": "Waterdoorstroming",
+      "description": "Waterdoorstroming in Liters per minuut (L/min)"
+    },
+    "alarm_generic": {
+      "title": "Algemeen Alarm",
+      "description": "Algemeen alarm"
+    },
+    "alarm_motion": {
+      "title": "Bewegingsalarm",
+      "description": "Gedetecteerde beweging"
+    },
+    "alarm_contact": {
+      "title": "Contact Alarm",
+      "description": "Contact sensor, bijvoorbeeld voor ramen"
+    },
+    "alarm_co": {
+      "title": "CO Alarm",
+      "description": "Gaat af bij gevaarlijke concentraties CO"
+    },
+    "alarm_co2": {
+      "title": "CO₂ Alarm",
+      "description": "Gaat af bij gevaarlijke concentraties CO₂"
+    },
+    "alarm_pm25": {
+      "title": "PM2.5 Alarm",
+      "description": "Gaat af wanneer de PM2.5 waarde overschreden wordt"
+    },
+    "alarm_tamper": {
+      "title": "Sabotagealarm",
+      "description": "Gaat af als sabotage gedetecteerd wordt"
+    },
+    "alarm_smoke": {
+      "title": "Rookmelder",
+      "description": "Gaat af als er rook gedetecteerd wordt"
+    },
+    "alarm_fire": {
+      "title": "Brandalarm",
+      "description": "Gaat af als er brand gedetecteerd wordt"
+    },
+    "alarm_heat": {
+      "title": "Hittealarm",
+      "description": "Gaat af als er extreme hitte gedetecteerd wordt"
+    },
+    "alarm_water": {
+      "title": "Hittealarm",
+      "description": "Gaat af als er water gedetecteerd wordt"
+    },
+    "alarm_battery": {
+      "title": "Batterij alarm",
+      "description": "Geeft een batterijwaarschuwing"
+    },
+    "alarm_night": {
+      "title": "Nacht Alarm",
+      "description": "Nacht Alarm"
+    },
+    "meter_power": {
+      "title": "Energiemeter",
+      "description": "Stroomverbuik in KiloWattUur (kWh)"
+    },
+    "meter_water": {
+      "title": "Watermeter",
+      "description": "Water gebruik in Kubieke Meter (m³)"
+    },
+    "meter_gas": {
+      "title": "Gasmeter",
+      "description": "Gas gebruik in Kubieke Meter (m³)"
+    },
+    "meter_rain": {
+      "title": "Regenmeter",
+      "description": "Regen in Kubieke Meter (m³)"
+    },
+    "homealarm_state": {
+      "title": "HThuisalarm status",
+      "description": "Switch between armed, disarmed and partially armed"
+    },
+    "volume_set": {
+      "title": "Set Volume",
+      "description": "Set volume to"
+    },
+    "volume_up": {
+      "title": "Volume omhoog",
+      "description": "Turn the volume up"
+    },
+    "volume_down": {
+      "title": "Volume omlaag",
+      "description": "Turn the volume down"
+    },
+    "volume_mute": {
+      "title": "Gedempt volume",
+      "description": "Mute the volume"
+    },
+    "channel_up": {
+      "title": "Kanaal omhoog",
+      "description": "Change the channel up one"
+    },
+    "channel_down": {
+      "title": "Kanaal omlaag",
+      "description": "Change the channel down one"
+    },
+    "locked": {
+      "title": "Op slot",
+      "description": "Geeft aan wanneer iets op slot is"
+    },
+    "lock_mode": {
+      "title": "Slot modus",
+      "description": "Switch between Always locked, always unlocked and locked until unlocked modes"
+    },
+    "windowcoverings_state": {
+      "title": "Window Coverings State",
+      "description": "Whether a window cover is up, down or idle"
+    },
+    "windowcoverings_tilt_up": {
+      "title": "Raambekleding kantelen omhoog",
+      "description": "Tilt Window Coverings Up"
+    },
+    "windowcoverings_tilt_down": {
+      "title": "Raambekleding kantelen naar beneden",
+      "description": "Tilt Window Coverings Down"
+    },
+    "windowcoverings_tilt_set": {
+      "title": "Kantelafdekking raambekleding",
+      "description": "Set the tilt value of the window covering"
+    },
+    "windowcoverings_closed": {
+      "title": "Raambekleding gesloten",
+      "description": "Close the window coverings"
+    },
+    "windowcoverings_set": {
+      "title": "Raambekleding set",
+      "description": "Set the position of window coverings. 0% is closed, 100% is open"
+    },
+    "button": {
+      "title": "Knop",
+      "description": "A push button"
+    },
+    "speaker_playing": {
+      "title": "Luidspreker spelen",
+      "description": "What the speaker is currently playing."
+    },
+    "speaker_next": {
+      "title": "Luidspreker Volgende",
+      "description": "Go to next item."
+    },
+    "speaker_prev": {
+      "title": "Luidspreker Vorige",
+      "description": "Go to previous item."
+    },
+    "speaker_shuffle": {
+      "title": "Luidspreker shuffle",
+      "description": "Shuffle speaker playback."
+    },
+    "speaker_repeat": {
+      "title": "Luidspreker herhalen",
+      "description": "Set the repeat type, none, track or playlist."
+    },
+    "speaker_artist": {
+      "title": "Luidspreker kunstenaar",
+      "description": "Which artist the speaker is currently playing."
+    },
+    "speaker_album": {
+      "title": "Luidsprekersalbum",
+      "description": "Which album the speaker is currently playing."
+    },
+    "speaker_track": {
+      "title": "Luidsprekerspoor",
+      "description": "Which track the speaker is currently playing."
+    },
+    "speaker_duration": {
+      "title": "Luidspreker duur",
+      "description": "Which duration of the current item."
+    },
+    "speaker_position": {
+      "title": "Luidspreker positie",
+      "description": "The speaker's current position"
+    },
+    "garagedoor_closed": {
+      "title": "Gesloten",
+      "description": "Schakel tussen geopend en gesloten"
+    }
+  },
+  "_": {
+    "Group Editor": "Device Groups Editor",
+    "Edit your groups": "Edit your groups",
+    "Group Name": "Group Name",
+    "Device Class": "Device Class",
+    "Capabilities": "Capabilities",
+    "Devices in group": "Devices in group",
+    "Select device group": "Select device group",
+    "Group": "Groep",
+    "Sorry": "Sorry you have not created any groups yet, please create a group and come back to edit it.",
+    "about": "Over",
+    "group": "groep",
+    "groups": "groepen",
+    "group name": "Groepsnaam",
+    "capability": "Optie",
+    "capabilities": "Opties",
+    "category": "Categorie",
+    "categories": "Categorieën",
+    "device": "Apparaat",
+    "devices": "Apparaten",
+    "icon": "Icoon",
+    "icons": "iconen",
+    "other": "Anders",
+    "unavailable": "Niet beschikbaar",
+    "offline": "offline",
+    "sorry": "Sorry je hebt nog geen groepen gecreëerd, maak eerst een groep aan en kom daarna terug om deze aan te passen."
+  },
+  "pair": {
+    "capabilities": {
+      "title": "Selecteer de mogelijkheden van de groep",
+      "loading": "laden"
+    },
+    "devices": {
+      "title": "Selecteer de apparaten voor deze groep",
+      "loading": "Ik verzamel al de apparaten met deze mogelijkheden",
+      "empty": {
+        "title": "Sorry geen apparaten gevonden",
+        "description": "We kunnen geen apparaten vinden met deze mogelijkheden, druk op ‘vorige’ om terug te gaan."
+      }
+    },
+    "icons": {
+      "title": "Kies je icoon",
+      "loading": "mogelijke iconen worden geladen"
+    },
+    "group": {
+      "title": "Er word een groep gecreëerd met jou apparaten..",
+      "loading": "Het toevoegen van deze nieuwe groep duurt een paar seconden."
+    }
+  },
+  "settings": {
+    "empty": "Sorry je hebt nog geen groepen gecreëerd, maak eerst een groep aan en kom daarna terug om deze aan te passen.",
+    "deleted": "[VERWIJDERDE]"
+  }
+}

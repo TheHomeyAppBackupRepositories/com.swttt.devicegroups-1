@@ -1,0 +1,532 @@
+{
+  "category": {
+    "alarm": {
+      "title": "Alarm",
+      "description": "Geräte die Alarm auslösen können. Zum Besipiel Sensoren, Kontakt, Feuer, Rauch, CO etc."
+    },
+    "amplifier": {
+      "title": "Verstärker",
+      "description": "Audio-Verstärker-Geräte."
+    },
+    "blinds": {
+      "title": "Rolladen",
+      "description": "Rolläden, sowohl horizontal als auch vertikal."
+    },
+    "button": {
+      "title": "Taster",
+      "description": "Taster und andere Elemente, die keinen Zustand haben."
+    },
+    "coffeemachine": {
+      "title": "Kaffeemaschine",
+      "description": "Kaffeemaschinen werden zum Brühen von Kaffee benutzt."
+    },
+    "curtain": {
+      "title": "Vorhang",
+      "description": "Elektrisch gesteuerte Vorhänge werden auf- und zugezogen."
+    },
+    "doorbell": {
+      "title": "Türklingel",
+      "description": "Eine Türklingel meldet einen besucher an der Tür"
+    },
+    "fan": {
+      "title": "Ventilator",
+      "description": "Ventilatoren kühlen dein Heim."
+    },
+    "garagedoor": {
+      "title": "Garagentor",
+      "description": "Gesteuerte Garagentore sowie auch automatisch geateuerte Türen"
+    },
+    "heater": {
+      "title": "Heizung",
+      "description": "Heizungen und andere Geräte, die dein Heim wärmen."
+    },
+    "homealarm": {
+      "title": "Heim-Sicherheit",
+      "description": "Heim-Alarm-Systeme."
+    },
+    "homeenergymonitor": {
+      "title": "Home Energy Monitor",
+      "description": "Geräte zur Überwachung des Energieverbrauchs in deinem Haus."
+    },
+    "kettle": {
+      "title": "Wasserkocher",
+      "description": "Geräte zu erhitzen von Wasser."
+    },
+    "light": {
+      "title": "Lampe",
+      "description": "Geräte um deine Umgebung zu beleuchten. (Lampen, Lichter etc.)"
+    },
+    "lock": {
+      "title": "Schloss",
+      "description": "Geräte zum Abschließen von Türen o.ä."
+    },
+    "other": {
+      "title": "Andere",
+      "description": "Geräte die nicht in andere Geräteklassen passen."
+    },
+    "relay": {
+      "title": "Relais",
+      "description": "Relais die mit anderen Geräten verbunden sind."
+    },
+    "remote": {
+      "title": "Fernbedienung",
+      "description": "Alle Arten von Fernbedienungen für z.B. Tv, AV.Receiver, Voränge etc."
+    },
+    "sensor": {
+      "title": "Sensor",
+      "description": "Kontakt, Bewegung, Feuer, CO oder jeder andere Sensor. Auch Alarmsensoren!"
+    },
+    "socket": {
+      "title": "Steckdose",
+      "description": "Alle Arten von Steckdosen."
+    },
+    "speaker": {
+      "title": "Lautsprecher",
+      "description": "Geräte die Musik abspielen können."
+    },
+    "sunshade": {
+      "title": "FensterJalousien",
+      "description": "Jalousien (Fenster-Abdeckungen gegen die Sonne)."
+    },
+    "thermostat": {
+      "title": "Thermostat",
+      "description": "Thermostate, entweder für das gesamte Heim oder pro Heizung"
+    },
+    "tv": {
+      "title": "TV",
+      "description": "TV/Fernseher.."
+    },
+    "vacuumcleaner": {
+      "title": "Staubsauger",
+      "description": "Staubsaugroboter zum automatischen Säubern des Hauses bzw. der Wohnung."
+    },
+    "windowcoverings": {
+      "title": "Fenster-Abdeckungen",
+      "description": "Fenster-Abdeckungen, wenn 'Vorhänge'-, 'Rolladen'- oder 'Jalousien'-Geräteklassen nicht zutreffen."
+    },
+    "camera": {
+      "title": "Camera",
+      "description": "Coming Soon."
+    }
+  },
+  "capability": {
+    "onoff": {
+      "title": "Eingeschaltet",
+      "description": "Ob ein Gerät ein- oder ausgeschaltet ist."
+    },
+    "dim": {
+      "title": "Dimmniveau",
+      "description": "Dimmt das Gerät prozentual zu seinem vollen Ausgangswert."
+    },
+    "light_hue": {
+      "title": "Farbton",
+      "description": "Die Farbe des Lichts."
+    },
+    "light_saturation": {
+      "title": "Farbsättigung",
+      "description": "Die Farbintensität."
+    },
+    "light_temperature": {
+      "title": "Farbtemperatur",
+      "description": "Weiße Lichttemperatur von warm zu kalt als Dezimalwert."
+    },
+    "light_mode": {
+      "title": "Lichtmodus",
+      "description": "Zwischen Farb- und Temperaturmodus wechseln."
+    },
+    "vacuumcleaner_state": {
+      "title": "Staubsauger-Status",
+      "description": "Status des Staubsaugers, ob er gerade säubert, Schmutz entdeckt hat, gestoppt hat oder am auflädt."
+    },
+    "thermostat_mode": {
+      "title": "Modus des Thermostates",
+      "description": "Thermostatmodus, ob er auf Automatik läuft, gerade heizt oder kühlt, oder ausgeschaltet ist."
+    },
+    "target_temperature": {
+      "title": "Ziel-Temperatur",
+      "description": "Setze eine Zieltemperatur für ein Gerät, welche erreicht werden soll."
+    },
+    "measure_temperature": {
+      "title": "Temperatur",
+      "description": "Temperatur in Celsius (°c)."
+    },
+    "measure_co": {
+      "title": "Kohlenmonoxid",
+      "description": "CO in Anteile pro Million (ppm)."
+    },
+    "measure_co2": {
+      "title": "Kohlendioxid",
+      "description": "CO₂ in Anteile pro Million (ppm)."
+    },
+    "measure_pm25": {
+      "title": "PM2.5",
+      "description": "Atmosphärischer Feinstaub (μg/m3)."
+    },
+    "measure_humidity": {
+      "title": "Luftfeuchtigkeit",
+      "description": "Luftfeuchtigkeit in Prozent (%)."
+    },
+    "measure_pressure": {
+      "title": "Druck",
+      "description": "Druck in Millibar (mbar)."
+    },
+    "measure_noise": {
+      "title": "Lärm",
+      "description": "Lärm in Dezibel (dB)."
+    },
+    "measure_rain": {
+      "title": "Niederschlag",
+      "description": "Niederschlag in Millimeter (mm)."
+    },
+    "measure_wind_strength": {
+      "title": "Windstärke",
+      "description": "Windstärke in Kilometer pro Stunde (km/h)."
+    },
+    "measure_wind_angle": {
+      "title": "Windrichtung",
+      "description": "Windrichtung in Grad (°)."
+    },
+    "measure_gust_strength": {
+      "title": "Böenstärke",
+      "description": "Böenstärke in Kilometer pro Stunde (km/h)."
+    },
+    "measure_gust_angle": {
+      "title": "Böenrichtung",
+      "description": "Böenrichtung in Grad (°)."
+    },
+    "measure_battery": {
+      "title": "Batterie",
+      "description": "Batteriestand in Prozent (%)."
+    },
+    "measure_power": {
+      "title": "Energie",
+      "description": "Energie in Watt (W)."
+    },
+    "measure_voltage": {
+      "title": "Spannung",
+      "description": "Elektische Spannung in Volt (V)."
+    },
+    "measure_current": {
+      "title": "Strom",
+      "description": "Elektrischer Strom in Ampere (A)."
+    },
+    "measure_luminance": {
+      "title": "Leuchtkraft",
+      "description": "Leuchtkraft in Lux (lx)."
+    },
+    "measure_ultraviolet": {
+      "title": "Ultraviolett",
+      "description": "Ultraviolett in UV-Index (UVI)."
+    },
+    "measure_water": {
+      "title": "Wasserfluss",
+      "description": "Wasserfluss in Liter pro Minute (L/min)."
+    },
+    "alarm_generic": {
+      "title": "Allgemeiner Alarm",
+      "description": "Allgemeiner Alarm."
+    },
+    "alarm_motion": {
+      "title": "Bewegungs-Alarm",
+      "description": "Alarm wenn Bewegung erkannt."
+    },
+    "alarm_contact": {
+      "title": "Kontakt-Alarm",
+      "description": "Alarm wenn ein Tür-/Fenstersensor geöffnet ist."
+    },
+    "alarm_co": {
+      "title": "CO-Alarm",
+      "description": "Alarm wenn gefährliche CO-Werte erkannt wurden."
+    },
+    "alarm_co2": {
+      "title": "CO2-Alarm",
+      "description": "Alarm wenn gefährliche CO₂-Werte erkannt wurden."
+    },
+    "alarm_pm25": {
+      "title": "PM2.5-Alarm",
+      "description": "Alarm wenn PM2.5-Werte die Schwelle überschreiten."
+    },
+    "alarm_tamper": {
+      "title": "Sabotage-Alarm",
+      "description": "Alarme wenn Sabotage erkannt wurde."
+    },
+    "alarm_smoke": {
+      "title": "Rauch-Alarm",
+      "description": "Alarme wenn Rauch erkannt wurde."
+    },
+    "alarm_fire": {
+      "title": "Feuer-Alarm",
+      "description": "Alarm wenn Feuer erkannt wurde."
+    },
+    "alarm_heat": {
+      "title": "Hitze-Alarm",
+      "description": "Alarm wenn extreme Hitze erkannt wurde."
+    },
+    "alarm_water": {
+      "title": "Wasser-Alarm",
+      "description": "Alarm wenn Wasser erkannt wurde."
+    },
+    "alarm_battery": {
+      "title": "Batterie-Alarm",
+      "description": "Alarm wenn eine Batterie einen niedrigen Stand meldet."
+    },
+    "alarm_night": {
+      "title": "Nacht-Alarm",
+      "description": "Alarm wenn es Nacht ist."
+    },
+    "meter_power": {
+      "title": "Energiezähler",
+      "description": "Energieverbrauch in Kilowattstunde (kWh)."
+    },
+    "meter_water": {
+      "title": "Wasserzähler",
+      "description": "Wasserverbrauch in Kubikmeter (m³)."
+    },
+    "meter_gas": {
+      "title": "Gaszähler",
+      "description": "Gasverbrauch in Kubikmeter (m³)."
+    },
+    "meter_rain": {
+      "title": "Regenzähler",
+      "description": "Regen in Kubikmeter (m³)."
+    },
+    "homealarm_state": {
+      "title": "Heim-Alarm-Status",
+      "description": "Wechsel zwischen aktiviert, deaktiviert oder teilweise aktiviert."
+    },
+    "volume_set": {
+      "title": "Lautstärke setzen",
+      "description": "Lautstärke setzen."
+    },
+    "volume_up": {
+      "title": "Lautstärke hoch",
+      "description": "Dreh die Lautstärke hoch."
+    },
+    "volume_down": {
+      "title": "Lautstärke runter",
+      "description": "Dreh die Lautstärke runter."
+    },
+    "volume_mute": {
+      "title": "Lautstärke stumm",
+      "description": "Lautstärke stummschalten."
+    },
+    "channel_up": {
+      "title": "Kanal hoch",
+      "description": "Einen Kanal hoch schalten."
+    },
+    "channel_down": {
+      "title": "Kanal runter",
+      "description": "Einen Kanal runter schalten."
+    },
+    "locked": {
+      "title": "Verriegelt",
+      "description": "'Wahr' wenn das Schloss verriegelt ist."
+    },
+    "lock_mode": {
+      "title": "Schloss-Modus",
+      "description": "Wechsel zwischen 'immer geöffnet', 'immer geschlossen' und 'geschlossen bis geöffnet wird'."
+    },
+    "windowcoverings_state": {
+      "title": "Status Fensterjalousien",
+      "description": "Sind die Fensterjalousien geöffnet, geschlossen oder im Leerlauf."
+    },
+    "windowcoverings_tilt_up": {
+      "title": "Jalousien nach oben gefahren",
+      "description": "Jalousien sind ganz nach oben gefahren."
+    },
+    "windowcoverings_tilt_down": {
+      "title": "Jalousien nach unten gefahren",
+      "description": "Jalousien sind ganz nach unten gefahren."
+    },
+    "windowcoverings_tilt_set": {
+      "title": "Jalousien einstellen",
+      "description": "Position der Jalousien einstellen."
+    },
+    "windowcoverings_closed": {
+      "title": "Jalousien geschlossen",
+      "description": "Jalousien werden geschlossen."
+    },
+    "windowcoverings_set": {
+      "title": "Jalousien prozentual einstellen",
+      "description": "Die Position der Jalousien setzen. 0% ist geschlossen, 100% ist offen."
+    },
+    "button": {
+      "title": "Taste",
+      "description": "Ein Druckknopf."
+    },
+    "speaker_playing": {
+      "title": "Lautsprecher spielt",
+      "description": "Was der Lautsprecher gerade spielt."
+    },
+    "speaker_next": {
+      "title": "Lautsprecher vor",
+      "description": "Zum nächsten Titel gehen."
+    },
+    "speaker_prev": {
+      "title": "Lautsprecher zurück",
+      "description": "Zum vorherigen Titel gehen."
+    },
+    "speaker_shuffle": {
+      "title": "Lautsprecher Shuffle",
+      "description": "Zufälliges Abspielen der Titel."
+    },
+    "speaker_repeat": {
+      "title": "Lautsprecher Repeat",
+      "description": "Setze den Wiederholungsmodus: kein, pro Track oder pro Playlist."
+    },
+    "speaker_artist": {
+      "title": "Lautsprecher Künstler",
+      "description": "Welcher Künstler wird gerade gespielt."
+    },
+    "speaker_album": {
+      "title": "Lautsprecher Album",
+      "description": "Welches Album wird gerade gespielt."
+    },
+    "speaker_track": {
+      "title": "Lautsprecher Track",
+      "description": "Welcher Track wird gerade gespielt."
+    },
+    "speaker_duration": {
+      "title": "Lautsprecher Zeit",
+      "description": "Vergangene Zeit des laufenden Tracks."
+    },
+    "speaker_position": {
+      "title": "Lautsprecher Position",
+      "description": "Aktuelle Abspielposition des Lautsprechers."
+    },
+    "garagedoor_closed": {
+      "title": "Geschlossen",
+      "description": "Offen/Geschlossen umschalten"
+    }
+  },
+  "_": {
+    "about": "über",
+    "group": "Gruppe",
+    "groups": "Gruppen",
+    "group name": "Gruppenname",
+    "capability": "Fähigkeit",
+    "capabilities": "Fähigkeiten",
+    "category": "Kategorie",
+    "categories": "Kategorien",
+    "device": "Gerät",
+    "devices": "Geräte",
+    "icon": "Icon",
+    "icons": "Icons",
+    "other": "Andere",
+    "unavailable": "nicht verfügbar",
+    "offline": "offline"
+  },
+  "method": {
+    "all": {
+      "title": "An wenn Alle an",
+      "brief": "an wenn alle Geräte an geschaltet",
+      "description": "An wenn alle Geräte an geschaltet sind. Sonst aus!"
+    },
+    "always": {
+      "title": "Immer an",
+      "brief": "immer an",
+      "description": "Immer an geschaltet."
+    },
+    "any": {
+      "title": "An wenn ein Gerät an",
+      "brief": "an wenn irgendein Gerät an ist",
+      "description": "an wenn irgendein Gerät angeschaltet ist."
+    },
+    "highest": {
+      "title": "höchster Wert",
+      "brief": "der höchste Wert",
+      "description": "Der höchste Wert aller in der Gruppe befindlichen Geräte."
+    },
+    "ignore": {
+      "title": "Ignoriere Geräte",
+      "brief": "der letzte gesetzte Wert in der App",
+      "description": "Nicht updaten, nur Werte der Karte nutzen."
+    },
+    "lowest": {
+      "title": "Niedrigster Wert",
+      "brief": "der niedrigste Wert",
+      "description": "Der niedrigste Wert aller in der Gruppe befindlichen Geräte."
+    },
+    "max": {
+      "title": "Maximaler Wert",
+      "brief": "der maximale Wert",
+      "description": "Der wert des Gerätes mit dem maximalsten Wert."
+    },
+    "mean": {
+      "title": "Gemittelter Durchschnitt",
+      "brief": "durchschnittlicher Wert",
+      "description": "Durchschnitt zum Berechen (zählen, summieren)."
+    },
+    "median": {
+      "title": "Mittelwert",
+      "brief": "der Mittelwert",
+      "description": "Der Mittelwert der Geräte."
+    },
+    "min": {
+      "title": "Mindestwert",
+      "brief": "der Mindestwert der Geräte",
+      "description": "Der Wert der Geräte mit dem kleinsten Wert."
+    },
+    "mode": {
+      "title": "Durchschnitts-Mode",
+      "brief": "der am gebräuchlichsten Wert",
+      "description": "Der Wert, den die meißten Geräte nutzen."
+    },
+    "most": {
+      "title": "Meißten Geräte",
+      "brief": "häufigster Wert",
+      "description": "An wenn mindestens die Hälfte der Geräte an ist."
+    },
+    "never": {
+      "title": "Nie an",
+      "brief": "nie an",
+      "description": "Nie an, immer ausgeschaltet."
+    },
+    "none": {
+      "title": "Ein, sofern nicht alles an ist",
+      "brief": "Ein, sofern nicht alles eingeschaltet ist",
+      "description": "Aus wenn alle an sind, ansonsten angeschaltet."
+    },
+    "sum": {
+      "title": "Gesamtwert",
+      "brief": "die Summe aller Geräte",
+      "description": "Summe aller in der Gruppe befindlichen Geräte."
+    },
+    "nor": {
+      "title": "Ein wenn Keine an",
+      "brief": "eingeschaltet, wenn kein Gerät an ist",
+      "description": "An wenn kein Gerät angeschaltet ist, andererseits aus."
+    },
+    "xor": {
+      "title": "Ein, sofern nicht alle ein- oder ausgeschaltet",
+      "brief": "Ein, sofern nicht alle ein- oder ausgeschaltet",
+      "description": "Aus wenn alle Geräte aus sind oder an sind."
+    }
+  },
+  "pair": {
+    "capabilities": {
+      "title": "Wähle die Fähigkeiten der Gruppe",
+      "loading": "Lade"
+    },
+    "devices": {
+      "title": "Wähle die Geräte der Gruppe",
+      "loading": "Sammeln aller Geräte mit diesen Funktionen",
+      "empty": {
+        "title": "Tut mir leid, keine Geräte gefunden.",
+        "description": "Wir konnten keine Geräte mit diesen besonderen Fähigkeiten finden. Bitte drücke 'zurück', um zurück zu gelangen."
+      }
+    },
+    "icons": {
+      "title": "Wähle dein Icon",
+      "loading": "Lade mögliche Icons"
+    },
+    "group": {
+      "title": "Gruppiere Geräte..",
+      "loading": "Füge neue Gruppe hinzu, das nimmt nur ein paar Sekunden in Anspruch."
+    }
+  },
+  "settings": {
+    "empty": "Tut mir leid, du hast noch keine Gruppe erstellt. Bitte erstelle erst eine Gruppe und komm dan zurück, um sie zu editieren.",
+    "deleted": "[gelöscht]"
+  }
+}

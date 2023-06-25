@@ -1,0 +1,27 @@
+{
+  "name": "alpha",
+  "version": "1.0.0",
+  "description": "With this app you can group devices with the same capabilities as one device.",
+  "main": "api.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hive/com.groups.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hive/com.groups/issues"
+  },
+  "homepage": "https://github.com/hive/com.groups#readme",
+  "dependencies": {
+    "homey-api": "^3.0.0-rc.10",
+    "homey-log": "^2.1.0",
+    "semver": "^7.3.8"
+  }
+}

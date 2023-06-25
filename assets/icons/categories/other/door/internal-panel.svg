@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="889px" viewBox="0 0 512 889" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>alarm_contact-door</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="alarm_contact-door" transform="translate(6.000000, 6.000000)">
+            <path d="M0,0 L500,0 L500,876.470588 L1.31891322,876.470588 C0.590497559,876.470588 0,875.876212 0,875.143006 L0,0 Z" id="Path" stroke="#000000" stroke-width="12"></path>
+            <path d="M464.411765,35 L464.411765,876.176471 L36.3389828,876.176471 C35.599483,876.176471 35,875.583576 35,874.8522 L36.3389828,35 L464.411765,35 Z" id="Shape" stroke="#000000" stroke-width="8"></path>
+            <circle id="Oval" stroke="#979797" stroke-width="4" fill="#000000" cx="81.5" cy="458.5" r="17.5"></circle>
+            <rect id="Rectangle" stroke="#979797" x="99.5" y="524.5" width="124" height="299"></rect>
+            <rect id="Rectangle" stroke="#979797" x="110.5" y="534.5" width="103" height="279"></rect>
+            <polygon id="Path-3" stroke="#979797" points="99 524 110 534 214 534 224 524 224 824 214 814 110 814 99 824"></polygon>
+            <rect id="Rectangle" stroke="#979797" x="274.5" y="524.5" width="124" height="299"></rect>
+            <rect id="Rectangle" stroke="#979797" x="285.5" y="534.5" width="103" height="279"></rect>
+            <polygon id="Path-3" stroke="#979797" points="274 524 285 534 389 534 399 524 399 824 389 814 285 814 274 824"></polygon>
+            <rect id="Rectangle" stroke="#979797" x="99.5" y="74.5" width="124" height="299"></rect>
+            <rect id="Rectangle" stroke="#979797" x="110.5" y="84.5" width="103" height="279"></rect>
+            <polygon id="Path-3" stroke="#979797" points="99 74 110 84 214 84 224 74 224 374 214 364 110 364 99 374"></polygon>
+            <rect id="Rectangle" stroke="#979797" x="274.5" y="74.5" width="124" height="299"></rect>
+            <rect id="Rectangle" stroke="#979797" x="285.5" y="84.5" width="103" height="279"></rect>
+            <polygon id="Path-3" stroke="#979797" points="274 74 285 84 389 84 399 74 399 374 389 364 285 364 274 374"></polygon>
+        </g>
+    </g>
+</svg>

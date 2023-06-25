@@ -1,0 +1,142 @@
+<style>
+    [v-cloak] {
+        display: none;
+    }
+
+    .device .icon {
+        background: #333 !important;
+    }
+
+    /** This may not be needed **/
+    .device .checkbox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .message .message-title {
+        text-align: center;
+        margin: 1em;
+    }
+
+    .device span.name {
+        padding-left: 1em;
+    }
+
+
+</style>
+<script src='../../../assets/scripts/vue-2.7.14.min.js'></script>
+
+<script>
+    Homey.showLoadingOverlay();
+    Homey.setTitle( Homey.__("pair.devices.title") );
+
+    $('#hy-overlay-loading-message').html( Homey.__("pair.devices.loading") );
+    $('#hy-nav-continue').removeClass('visible');
+
+    Homey.emit('devices.initialised', {}).then( (result) => {
+
+        var allDevices = result.devices;
+        var pairingDevice = result.group;
+        var selectedDevices = result.selected;
+        var totalDevices = result.totalDevices;
+
+        new Vue({
+            el: '#all-devices',
+            data: {
+                search: '',
+                selectedDevices: [],
+                devices: {},
+                pairingDevice: {},
+                totalDevices: 0,
+            },
+            mounted() {
+                $('#hy-nav-continue').removeClass('visible');
+                this.devices = allDevices;
+                this.pairingDevice = pairingDevice;
+                this.selectedDevices = selectedDevices;
+                this.totalDevices = totalDevices;
+                Homey.hideLoadingOverlay();
+            },
+            methods: {},
+            watch: {
+                'selectedDevices': function (val) {
+                    Homey.emit('devices.changed',  {'devices': val}).then( (result) => {
+                        // Ensure that they have selected at least one capability before letting them hit next.
+                        if (result.store.hasOwnProperty('devices') && result.store.devices.length > 0) {
+                            $('#hy-nav-continue').addClass('visible');
+                            $('#hy-nav-continue').html(result.store.devices.length + ' devices selected');
+                        } else {
+                            $('#hy-nav-continue').removeClass('visible');
+                        }
+                    }).catch((e) => {
+                        Homey.alert(e, 'error');
+                        Homey.done();
+                    });
+                }
+            },
+            computed: {
+                filteredDevices() {
+                    var devices = $.map(this.devices, function (value, index) {
+                        return [value];
+                    });
+
+                    let filtered = devices.filter(device => {
+                        if (this.selectedDevices.find(selected => selected.id === device.id)){
+                            return true;
+                        }
+                        return device.name.toLowerCase().includes(this.search.toLowerCase())
+                    });
+
+                    filtered.sort((a, b) => a.name.localeCompare(b.name));
+
+                    return filtered
+                },
+                unfilteredDevices() {
+                    var devices = this.devices;
+
+                    var array = $.map(devices, function (value, index) {
+                        return [value];
+                    });
+
+                    array.sort((a, b) => a.name.localeCompare(b.name));
+                    return array;
+                }
+            }
+        });
+    }).catch((e) => {
+        Homey.alert(e, 'error');
+        Homey.done();
+    });
+
+</script>
+
+
+<div id="all-devices">
+    <template v-cloak>
+        <div class="search-wrapper">
+            <label>Search for a device:</label>
+            <input type="text" v-model="search" placeholder="Device Name ..."/>
+        </div>
+
+        <div v-if="filteredDevices.length > 0" style="text-align:right;font-size:0.9em">
+            <small>Showing {{ filteredDevices.length }}/{{ totalDevices }} {{ __('_.devices') | capitalize }}</small>
+        </div>
+        <div class="message" v-else>
+            <h3 class="message-title">{{ __('pair.devices.empty.title') }}</h3>
+            <p class="message-description">{{ __('pair.devices.empty.description') }}</p>
+        </div>
+        <ul id="devices-list">
+            <li v-if="filteredDevices.length > 0" class="device" v-for="device in filteredDevices" :key="device.id">
+                <label :for="device.id" class="name">
+                    <div class="overlay"></div>
+                    <div class="icon" v-if="device.iconObj !== null" v-bind:style="{maskImage: 'url(' + device.iconObj.url + ')'}"></div>
+                    <span class="name" tabindex="-1"><span v-if="!device.ready">[{{ __('_.offline')  }}] </span> {{device.name}}</span>
+                </label>
+                <label :for="device.id" class="checkbox" class="checkbox">
+                    <input :id="device.id" :value="device"  name="device" type="checkbox" tabindex="2" v-model="selectedDevices">
+                </label>
+            </li>
+        </ul>
+    </template>
+</div>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="223px" height="468px" viewBox="0 0 223 468" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>w1-gang</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="w1-gang" transform="translate(0.000000, 2.000000)">
+            <polygon id="Rectangle-2" stroke="#979797" stroke-width="4" points="22.5 0.550937497 22.5 462.86566 220.5 444.54413 220.5 19.7897095"></polygon>
+            <polygon id="Rectangle-2" stroke="#979797" stroke-width="4" transform="translate(17.000000, 231.707031) scale(-1, 1) translate(-17.000000, -231.707031) " points="12.5 0.5 12.5 462.914063 21.5 462.914062 21.5 0.5"></polygon>
+            <polygon id="Rectangle-2" stroke="#979797" fill="#000000" fill-rule="nonzero" points="0.5 11.2216599 0.5 451.322885 11.5 453.80433 11.5 8.2192185"></polygon>
+            <ellipse id="path-1" stroke="#4A4A4A" stroke-width="3" fill-rule="nonzero" cx="157.5" cy="231.5" rx="21.5" ry="32.5"></ellipse>
+            <circle id="Oval-4" stroke="#979797" stroke-width="3" fill="#4A4A4A" fill-rule="nonzero" cx="159.5" cy="231.5" r="2.5"></circle>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,86 @@
+16806719352 [trace] [driver:light] [determineSettings]  {
+ {
+  labelVersion: '3.2.0',
+  labelClass: 'light',
+  debounceGroup: 0,
+  debounceDevices: 0,
+  wait: 0,
+  tries: 1,
+  logLevel: 'debug',
+  dim: 'ignore',
+  light_mode: 'ignore',
+  light_hue: 'ignore',
+  light_saturation: 'ignore',
+  light_temperature: 'ignore',
+  measure_power: 'ignore',
+  meter_power: 'ignore',
+  labelCapabilities: 'Turned on',
+  labelDevices: 'Study Floor Lamp Globe',
+  onoff: 'any',
+  notes: '',
+  energy_value_off: null,
+  energy_value_on: null,
+  homekit_exclude: false
+}
+}
+ignore
+object
+{
+  labelVersion: '3.2.0',
+  labelClass: 'light',
+  debounceGroup: 0,
+  debounceDevices: 0,
+  wait: 0,
+  tries: 1,
+  logLevel: 'debug',
+  dim: 'ignore',
+  light_mode: 'ignore',
+  light_hue: 'ignore',
+  light_saturation: 'ignore',
+  light_temperature: 'ignore',
+  measure_power: 'ignore',
+  meter_power: 'ignore',
+  labelCapabilities: 'Turned on',
+  labelDevices: 'Study Floor Lamp Globe',
+  onoff: 'ignore',
+  notes: '',
+  energy_value_off: null,
+  energy_value_on: null,
+  homekit_exclude: false
+}
+
+
+----
+16806719864 [trace] [driver:light] [determineSettings]  {
+ {
+  labelVersion: '3.2.0',
+  labelClass: 'light',
+  debounceGroup: 0,
+  debounceDevices: 0,
+  wait: 0,
+  tries: 1,
+  logLevel: 'debug',
+  dim: 'ignore',
+  light_mode: 'ignore',
+  light_hue: 'ignore',
+  light_saturation: 'ignore',
+  light_temperature: 'ignore',
+  measure_power: 'ignore',
+  meter_power: 'ignore',
+  labelCapabilities: 'Turned on',
+  labelDevices: 'Study Floor Lamp Globe, Study Fixture Globe 4, Study Fixture Globe 3, Study Fixture Globe 2, Study Fixture Globe 1',
+  onoff: 'most',
+  notes: '',
+  homekit_exclude: false
+}
+}
+ignore
+object
+TypeError: Cannot assign to read only property 'dim' of object '#<Object>'
+    at Function.assign (<anonymous>)
+    at LightDriver.determineSettings (/app/lib/driver.js:298:26)
+    at LightDriver.onGroupInitialised (/app/lib/driver.js:360:46)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /app/lib/driver.js:476:20
+
+

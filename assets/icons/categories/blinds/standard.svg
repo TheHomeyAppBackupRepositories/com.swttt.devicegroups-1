@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2000px" height="2000px" viewBox="0 0 2000 2000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>standard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="blinds" fill="#000000" fill-rule="nonzero">
+            <path d="M1765,1641 L230,1641 L230,359 L1765,359 L1765,1641 Z M265.280236,1605.81 L1729.73384,1605.81 L1729.73384,394.260384 L265.280236,394.260384 L265.280236,1605.81 Z" id="Shape"></path>
+            <path d="M1716,1586 L286,1586 L286,531 L1716,531 L1716,1586 Z M313.871043,1558.2043 L1688.12896,1558.2043 L1688.12896,558.7957 L313.871043,558.7957 L313.871043,1558.2043 Z" id="Shape"></path>
+            <rect id="Rectangle-path" x="316" y="588" width="1385" height="71"></rect>
+            <rect id="Rectangle-path" x="316" y="701" width="1385" height="71"></rect>
+            <rect id="Rectangle-path" x="316" y="813" width="1385" height="71"></rect>
+            <rect id="Rectangle-path" x="316" y="926" width="1385" height="71"></rect>
+            <rect id="Rectangle-path" x="316" y="1040" width="1385" height="71"></rect>
+            <rect id="Rectangle-path" x="316" y="1153" width="1385" height="71"></rect>
+            <rect id="Rectangle-path" x="316" y="1266" width="1385" height="71"></rect>
+            <path d="M1589.9712,1481.99986 C1585.20377,1482.0036 1580.63051,1480.15497 1577.25942,1476.86146 C1573.88834,1473.56795 1571.99618,1469.09991 1572.00001,1464.44218 L1572.00001,574.585816 C1572.00001,564.873438 1580.05888,557 1590,557 C1599.94113,557 1608,564.873438 1608,574.585816 L1608,1464.45625 C1608.00004,1469.12132 1606.09829,1473.5943 1602.71515,1476.88639 C1599.332,1480.17849 1594.7461,1482.01856 1589.9712,1481.99986 Z" id="Shape"></path>
+            <rect id="Rectangle-path" x="220" y="362" width="1559" height="212"></rect>
+        </g>
+    </g>
+</svg>

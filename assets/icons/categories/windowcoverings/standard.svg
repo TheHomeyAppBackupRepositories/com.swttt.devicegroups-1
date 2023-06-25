@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2000px" height="2001px" viewBox="0 0 2000 2001" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>standard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="windowcoverings" fill="#000000" fill-rule="nonzero">
+            <rect id="Rectangle-path" x="230" y="605" width="1542" height="635"></rect>
+            <path d="M1002,1416 C964.517004,1416 934,1385.71856 934,1348.49289 C934,1311.26721 964.502817,1281 1002,1281 C1039.49718,1281 1070,1311.28144 1070,1348.49289 C1070,1385.70433 1039.483,1416 1002,1416 Z M1002,1314.71087 C983.017317,1314.71087 967.609848,1329.86582 967.609848,1348.49289 C967.990151,1367.27402 983.278374,1382.29992 1002.00709,1382.29992 C1020.73581,1382.29992 1036.02404,1367.27402 1036.40434,1348.49289 C1036.39015,1329.86582 1020.9685,1314.71087 1002,1314.71087 Z" id="Shape"></path>
+            <rect id="Rectangle-path" x="984" y="1217" width="33" height="81"></rect>
+            <rect id="Rectangle-path" x="217" y="361" width="1565" height="213"></rect>
+            <path d="M1769,1644 L229,1644 L229,357 L1769,357 L1769,1644 Z M264.381031,1608.58913 L1733.68959,1608.58913 L1733.68959,392.396739 L264.381031,392.396739 L264.381031,1608.58913 Z" id="Shape"></path>
+            <path d="M1715,1588 L287,1588 L287,868 L1715,868 L1715,1588 Z M309.975125,1565.02248 L1692.02487,1565.02248 L1692.02487,890.977521 L309.975125,890.977521 L309.975125,1565.02248 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
